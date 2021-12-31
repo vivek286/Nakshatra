@@ -12,6 +12,7 @@ html{
 body{
   font-family: 'Poppins', sans-serif;
   color: white;
+  overflow-x: hidden;
 }
 a,a:visited,a:link,a:active{
   color: inherit;
@@ -22,4 +23,9 @@ a:hover{
   color: #FE0199;
   text-shadow:0 0 5px #FE0199,    0 0 8px #FE0199,    0 0 15px #FE0199;
   
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
 }

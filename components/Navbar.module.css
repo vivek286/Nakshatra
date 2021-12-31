@@ -9,6 +9,7 @@
 
 .header_logo{
     width: 35rem;
+    margin-top: -0.5rem;
 }
 .header_logo img{
     width: 100%;
@@ -25,4 +26,10 @@
 .navbar ul li{
     font-weight: 300;
 font-size: 1.6rem;
+}
+
+@media screen and (max-width:900px) {
+    .navbar{
+        display: none;
+    }
 }
