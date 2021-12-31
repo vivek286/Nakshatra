@@ -10,29 +10,26 @@
     flex-direction: column;
     align-items: center;
     padding: 10rem 0;
-    padding-bottom: 5rem;
     position: relative;
     z-index: 1;
-    justify-content: space-between;
+    gap: 2rem;
 }
 .hero h1{
     font-weight: 500;
     letter-spacing: 3px;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: #fff;
     text-shadow:0 0 1px #fff,    0 0 8px #fff,    0 0 15px #fff;
 }
 .hero_logo{
-    position: absolute;
-    top: 0%;
-    width: 70rem;
+    width: 100rem;
 }
 .hero_logo img{
     width: 100%;
 }
 .hero_year{
-width: 20rem;
+width: 15rem;
 }
 .hero_year img{
 width: 100%;
