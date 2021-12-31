@@ -1,7 +1,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('../public/banner.jpg');
+    background-image: url('../public/banner.png');
     background-position-x:center;
     background-position-y:center;
     background-repeat: no-repeat;
@@ -9,7 +9,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
+    padding: 10rem 0;
+    padding-bottom: 5rem;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
 }
 .hero h1{
     font-weight: 500;
@@ -17,5 +21,19 @@
     font-size: 3rem;
     text-align: center;
     color: #fff;
-    text-shadow:0 0 7px #fff,    0 0 10px #fff,    0 0 21px #fff;
+    text-shadow:0 0 1px #fff,    0 0 8px #fff,    0 0 15px #fff;
+}
+.hero_logo{
+    position: absolute;
+    top: 0%;
+    width: 70rem;
+}
+.hero_logo img{
+    width: 100%;
+}
+.hero_year{
+width: 20rem;
+}
+.hero_year img{
+width: 100%;
 }
