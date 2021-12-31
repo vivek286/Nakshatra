@@ -15,7 +15,7 @@
 }
 .navbar{
     display: flex;
-    align-items: center;
+    padding-top: 2rem;
 }
 .navbar ul{
     list-style: none;
