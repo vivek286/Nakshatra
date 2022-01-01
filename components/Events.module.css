@@ -1,0 +1,20 @@
+.events_card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1.5rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:900px) {
+    .events_card{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:700px) {
+    .events_card{
+        display: flex;
+        flex-direction: column;
+    }
+}

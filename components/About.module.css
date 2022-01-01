@@ -1,0 +1,27 @@
+.about{
+
+    max-width: 70%;
+}
+.about div{
+    margin-left: 1.5rem;
+}
+.about span{
+    color:#fff;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 10px #fff, 0px 0px 20px #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.about span:hover{
+    color: var(--purple);
+    text-shadow: none;
+}
+@media screen and (max-width:900px) {
+    .about{
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:600px) {
+    .about{
+        max-width: 100%;
+    }
+}

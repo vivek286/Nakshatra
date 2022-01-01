@@ -9,16 +9,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10rem 0;
-    padding-top: 15rem;
+    padding: 10rem 1rem;
     position: relative;
     z-index: 1;
+    gap: 2rem;
     justify-content: space-between;
 }
-.hero h1{
+.hero h1 p{
     font-weight: 500;
     letter-spacing: 3px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     color: #fff;
     text-shadow:0 0 1px #fff,    0 0 8px #fff,    0 0 15px #fff;
@@ -46,12 +46,11 @@ width: 100%;
 }
 @media only screen and (max-width: 900px) {
     .hero{
-        background-position: left ;
        padding: 20rem 0;
        justify-content: space-between;
     }
-    .hero h1{
-        font-size: 3rem;
+    .hero h1 p{
+        font-size: 2.5rem;
     }
     .hero_year{
         width: 15rem;
@@ -59,10 +58,10 @@ width: 100%;
   }
 
 @media only screen and (max-width: 600px) {
-        .hero_logo{
-        width: 30rem;
+.hero_logo{
+    width: 30rem;
     }
-    .hero_year{
+.hero_year{
         width: 15rem;
-        }
-  }
+    }
+}
