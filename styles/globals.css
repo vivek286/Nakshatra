@@ -4,6 +4,10 @@
 :root{
   --pink: #FE0199;
   --purple: #7043BA;
+  --blue: #073EFF;
+  --yellow: #FFC107;
+
+
 }
 *,*::after,*::before{
   padding: 0;

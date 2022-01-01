@@ -1,0 +1,15 @@
+.speakers_cards{
+    display: flex;
+    margin-left: 1.5rem;
+    gap: 2rem;
+    overflow-x: auto !important;
+    width: 100%;
+    scroll-behavior: smooth; 
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+.speakers_cards::-webkit-scrollbar {
+    width: 0 !important;
+display: none !important;
+}
