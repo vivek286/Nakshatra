@@ -1,6 +1,7 @@
+import { useState } from 'react';
 import classes from './Event-Card.module.css';
 
-const EventCard = ({ img, heading, description }) => {
+const EventCard = ({ img, heading, description, card }) => {
     return (
         <div className={classes.card}>
             <div className={classes.heading}>

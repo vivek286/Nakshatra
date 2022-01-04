@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import TimelineItem from './Timeline-item';
-import classes from './Timeline.module.css'
+import classes from './Timeline.module.css';
+import FlipMove from 'react-flip-move';
 
 const feb1 = [{ time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop', active: true }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }];
 
@@ -28,9 +29,11 @@ const Timeline = () => {
                     <p className={`${activeDate === 3 && classes.active}`} onClick={() => changeDateHandler(3)}>Feb 3</p>
                 </div>
                 <div className={classes.timeline_items}>
+
                     {activeDate === 1 && feb1.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
                     {activeDate === 2 && feb2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
                     {activeDate === 3 && feb3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
+
                 </div>
             </div>
         </section>

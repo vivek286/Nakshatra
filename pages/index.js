@@ -7,6 +7,8 @@ import Speakers from "../components/Speakers"
 import Timeline from "../components/Timeline"
 import Involved from "../components/Involved"
 import Sponsors from "../components/Sponsors"
+import FAQ from "../components/FAQ"
+
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Timeline />
         <Involved />
         <Sponsors />
+        <FAQ />
       </main>
     </>
   )
