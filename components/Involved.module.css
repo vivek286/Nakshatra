@@ -1,0 +1,57 @@
+.involved_container{
+   margin-left: 1.5rem;
+}
+.container_subheading{
+    color: var(--purple);
+    font-weight:500;
+}
+.involved_actions{
+    display: flex;
+    justify-content: flex-start;
+    gap:10rem;
+    margin-top: 5rem;
+}
+.action_button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    word-wrap:normal;
+    border-radius: 20rem;
+    transition: 0.3s ease all;
+}
+.action_button > img{
+    width: 10rem;
+    height: 10rem;
+object-fit: contain;
+padding: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.btn_1{
+background: linear-gradient(to right bottom, #DA22FF,#9733EE);
+}
+.btn_2{
+    background: linear-gradient(to right bottom, #F953C6,#B91D73);
+}
+.action_button > p{
+    padding: 0 2rem;
+    font-weight: 600;
+}
+.involved_actions > a{
+    color: #fff;
+    text-shadow: none;
+}
+.action_button:hover{
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width:600px) {
+    .involved_actions{
+        display: flex;
+        gap: 2rem;
+     flex-direction: column;
+    }
+    .action_button > p{
+        padding: 0 1rem;
+    }
+}

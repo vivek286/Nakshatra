@@ -31,7 +31,9 @@
 .description > p{
     font-weight: 500;
     font-size:1.8rem;
-    
+}
+.description > p:first-child{
+    font-weight: 700;
 }
 
 @media screen and (max-width:900px) {
