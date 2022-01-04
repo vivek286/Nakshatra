@@ -1,0 +1,44 @@
+.timeline_container{
+    margin-left: 1.5rem;
+}
+.container_subheading{
+    color: var(--pink);
+    font-weight:500;
+}
+.dates{
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.dates > p:first-child{
+    margin-left: 10rem;
+}
+.dates > p{
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.active{
+    box-shadow: 0px 3px 0px var(--pink);
+}
+.timeline_items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+@media screen and (max-width:900px) {
+    .dates > p:first-child{
+        margin-left: 7rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .dates > p:first-child{
+        margin-left: 4rem;
+    }
+}

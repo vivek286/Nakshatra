@@ -4,6 +4,7 @@ import About from "../components/About"
 import Pages from "../components/Pages"
 import Events from "../components/Events"
 import Speakers from "../components/Speakers"
+import Timeline from "../components/Timeline"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Pages />
         <Events />
         <Speakers />
+        <Timeline />
       </main>
     </>
   )
