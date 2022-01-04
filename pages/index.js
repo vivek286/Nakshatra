@@ -6,6 +6,7 @@ import Events from "../components/Events"
 import Speakers from "../components/Speakers"
 import Timeline from "../components/Timeline"
 import Involved from "../components/Involved"
+import Sponsors from "../components/Sponsors"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Speakers />
         <Timeline />
         <Involved />
+        <Sponsors />
       </main>
     </>
   )
