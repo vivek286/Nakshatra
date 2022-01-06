@@ -33,4 +33,9 @@ font-size: 1.6rem;
     .navbar{
         display: none;
     }
+    .header_logo{
+        width: 30rem;
+        margin-top: -0.5rem;
+        margin-left: -1.5rem;
+    }
 }
