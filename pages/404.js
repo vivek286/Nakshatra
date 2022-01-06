@@ -2,9 +2,13 @@
 import Navbar from '../components/Navbar'
 import Link from 'next/link';
 import classes from './404.module.css';
+import Head from "next/head"
 const errorPage = () => {
     return (
         <>
+            <Head>
+                <title>Page Not Found</title>
+            </Head>
             <header className={classes["top-header"]}>
                 <Navbar />
             </header>
@@ -32,7 +36,7 @@ const errorPage = () => {
                 <div className={classes["error__content"]}>
                     <div className={classes["error__message message"]}>
                         <h1 classNames={classes["message__title"]}>Page Not Found</h1>
-                        <p className={classes["message__text"]}>We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
+                        <p className={classes["message__text"]}>We&apos;re sorry, the page you were looking for isn&apos;t found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
                     </div>
                     <div className={classes["error__nav e-nav"]}>
                         <Link href="/">

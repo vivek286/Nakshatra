@@ -8,12 +8,20 @@ import Timeline from "../components/Timeline"
 import Involved from "../components/Involved"
 import Sponsors from "../components/Sponsors"
 import FAQ from "../components/FAQ"
+import Head from "next/head"
+import { useEffect, useState } from "react"
 
 
 export default function Home() {
+  const [pageTitle, setPageTitle] = useState('Nakshatra');
+
+
   return (
     <>
-      <Navbar />
+      <Head>
+        <title>{pageTitle}</title>
+      </Head>
+      <Navbar setPageTitle={setPageTitle} />
       <main>
         <Hero />
         <About />
