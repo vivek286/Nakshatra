@@ -2,7 +2,7 @@ import classes from './Involved.module.css';
 
 const Involved = () => {
     return (
-        <section className={classes.involved}>
+        <section className={classes.involved} id="get-involved">
             <h2>Get Involved</h2>
             <div className={classes.involved_container}>
                 <p className={classes.container_subheading}>Sharing is caring, good things should reach to stars....involve your community and stuff</p>

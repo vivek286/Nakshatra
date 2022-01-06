@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import TimelineItem from './Timeline-item';
 import classes from './Timeline.module.css';
-import FlipMove from 'react-flip-move';
 
 const feb1 = [{ time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop', active: true }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }];
 
@@ -17,7 +16,7 @@ const Timeline = () => {
     }
 
     return (
-        <section className={classes.timeline}>
+        <section className={classes.timeline} id="Timeline">
             <h2>
                 Timeline
             </h2>

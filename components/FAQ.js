@@ -2,7 +2,7 @@ import classes from './FAQ.module.css';
 
 const FAQ = () => {
     return (
-        <section className={classes.faq}>
+        <section className={classes.faq} id='FAQs'>
             <h2>Frequetly Asked Questions</h2>
             <div className={classes.faq_container}>
 

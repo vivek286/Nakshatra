@@ -3,7 +3,7 @@ import classes from './Events.module.css';
 import Fade from 'react-reveal/Fade';
 
 const Events = () => {
-    return <section className={classes.events}>
+    return <section className={classes.events} id="Events">
         <h2>Events</h2>
         <div className={classes.events_card}>
 

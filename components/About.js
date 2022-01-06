@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
-        <section className={classes.about}>
+        <section className={classes.about} id="About">
             <Fade bottom>
                 <h2>About</h2>
                 <div>

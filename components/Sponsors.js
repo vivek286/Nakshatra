@@ -2,7 +2,7 @@ import classes from './Sponsors.module.css';
 
 const Sponsors = () => {
     return (
-        <section className={classes.sponsors}>
+        <section className={classes.sponsors} id="Sponsors">
             <h2>Sponsors</h2>
             <div className={classes.sponsors_conatiner}>
                 <div className={classes.sponsors_subheading}>

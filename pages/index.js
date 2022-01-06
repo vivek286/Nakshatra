@@ -1,7 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import About from "../components/About"
-import Pages from "../components/Pages"
+import Prizes from "../components/Prizes"
 import Events from "../components/Events"
 import Speakers from "../components/Speakers"
 import Timeline from "../components/Timeline"
@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Pages />
+        <Prizes />
         <Events />
         <Speakers />
         <Timeline />

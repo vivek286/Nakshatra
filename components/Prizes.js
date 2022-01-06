@@ -1,5 +1,5 @@
-import classes from './Pages.module.css'
-const Pages = () => {
+import classes from './Prizes.module.css'
+const Prizes = () => {
     return (
         <section className={classes.pages}>
             <h2>
@@ -11,4 +11,4 @@ const Pages = () => {
         </section>
     )
 }
-export default Pages;
+export default Prizes;

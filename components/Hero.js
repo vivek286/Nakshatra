@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Hero = () => {
     return (
-        <section className={classes.hero}>
+        <section className={classes.hero} id="Home">
 
             <h1>
                 <p> Google Developer Student Club </p>
