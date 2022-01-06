@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import TimelineItem from './Timeline-item';
 import classes from './Timeline.module.css';
+import Fade from 'react-reveal/Fade';
 
-const feb1 = [{ time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop', active: true }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }];
+
+const feb1 = [{ time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop', active: true }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Bilal Mansuri', title: 'Web Dev Workshop' }];
 
 const feb2 = [{ time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop', active: true }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }, { time: '8:00', speaker: 'Anas Khan', title: 'Android Workshop' }];
 
@@ -28,12 +30,11 @@ const Timeline = () => {
                     <p className={`${activeDate === 3 && classes.active}`} onClick={() => changeDateHandler(3)}>Feb 3</p>
                 </div>
                 <div className={classes.timeline_items}>
-
                     {activeDate === 1 && feb1.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
                     {activeDate === 2 && feb2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
                     {activeDate === 3 && feb3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
-
                 </div>
+
             </div>
         </section>
     )

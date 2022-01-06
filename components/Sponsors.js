@@ -12,7 +12,7 @@ const Sponsors = () => {
                 <div className={classes.sponsors_details}>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/star.png" alt="Star" />
+                            <img src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
                             <img src="/sponsors/google.svg" alt="Google" />
@@ -22,7 +22,7 @@ const Sponsors = () => {
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/star.png" alt="Star" />
+                            <img src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
                             <img src="/sponsors/google.svg" alt="Google" />
@@ -32,7 +32,7 @@ const Sponsors = () => {
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/star.png" alt="Star" />
+                            <img src="/sponsors/bronze.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
                             <img src="/sponsors/google.svg" alt="Google" />

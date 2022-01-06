@@ -1,3 +1,12 @@
 .faq_container{
     margin-left:1.5rem;
 }
+.faq_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
