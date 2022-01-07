@@ -1,5 +1,5 @@
 
-import Navbar from '../components/Navbar'
+import Navbar from '../components/UI/Navbar'
 import Link from 'next/link';
 import classes from './404.module.css';
 import Head from "next/head"
