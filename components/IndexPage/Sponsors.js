@@ -42,10 +42,9 @@ const Sponsors = () => {
                             <img src="/sponsors/tesla.svg" alt="Google" />
                         </div>
                     </div>
-                </div>'
+                </div>
                 <div className={classes.sponsors_subheading}>
-                    <p>Interested in sponsoring Nakshatra?
-                        Send us the mail <a href="mailto:mugdsc@gmail.com" target="_blank" rel="noopener noreferrer">mugdsc@gmail.com</a> </p>
+                    <p>Interested in sponsoring Nakshatra? Send us the mail <a href="mailto:mugdsc@gmail.com" target="_blank" rel="noopener noreferrer">mugdsc@gmail.com</a> </p>
                 </div>
             </div>
         </section>
