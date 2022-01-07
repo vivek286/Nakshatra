@@ -20,7 +20,7 @@ const Hero = () => {
                 </a>
             </Link>
             <div className={classes.hero_year}>
-                <img src="./2022.png" alt="2022 Neon Text" />
+                <img src="/2022.png" alt="2022 Neon Text" />
             </div>
         </section>
     )

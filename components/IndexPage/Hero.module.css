@@ -1,7 +1,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('../public/banner-c.png');
+    background-image: url('../../public/banner-c.png');
     background-position-x:center;
     background-position-y:center;
     background-repeat: no-repeat;
