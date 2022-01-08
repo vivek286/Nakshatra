@@ -19,21 +19,21 @@
 .time > p{
     font-weight: 700;
     font-size: 1rem;
+    color: var(--pink);
 }
 .description{
     padding: 0.5rem 2rem;
-    color: #000;
+    color: #fff;
     width: 100%;
     border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 2px 2px 10px var(--pink);
+    background: linear-gradient(to right, #FE0199,#FE0199,#FE0199,rgba(254, 1, 153, 0.63), #fe019900);
 }
 .description > p{
-    font-weight: 500;
+    font-weight: 300;
     font-size:1.8rem;
 }
 .description > p:first-child{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 @media screen and (max-width:900px) {

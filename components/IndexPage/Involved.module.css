@@ -8,7 +8,8 @@
 .involved_actions{
     display: flex;
     justify-content: flex-start;
-    gap:10rem;
+    flex-wrap: wrap;
+    gap:5rem;
     margin-top: 2rem;
 }
 .action_button{
@@ -18,21 +19,17 @@
     word-wrap:normal;
     border-radius: 20rem;
     transition: 0.3s ease all;
+    background: linear-gradient(to right, #FE0199, rgba(212, 52, 173,0.97), rgba(69, 227, 241,0.83));
 }
 .action_button > img{
     width: 10rem;
     height: 10rem;
-object-fit: contain;
-padding: 1rem;
+    object-fit: cover;
+    padding: 2rem;
     border-radius: 50%;
     background-color: #fff;
 }
-.btn_1{
-background: linear-gradient(to right bottom, #DA22FF,#9733EE);
-}
-.btn_2{
-    background: linear-gradient(to right bottom, #F953C6,#B91D73);
-}
+
 .action_button > p{
     padding: 0 2rem;
     font-weight: 600;
@@ -45,11 +42,18 @@ background: linear-gradient(to right bottom, #DA22FF,#9733EE);
     transform: translateY(-3px);
 }
 
+@media screen and (max-width:900px) {
+    .involved_actions{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
 @media screen and (max-width:600px) {
     .involved_actions{
         display: flex;
         gap: 2rem;
-     flex-direction: column;
+        flex-direction: column;
     }
     .action_button > p{
         padding: 0 1rem;

@@ -8,15 +8,21 @@ const Involved = () => {
                 <p className={classes.container_subheading}>Sharing is caring, good things should reach to stars....involve your community and stuff</p>
                 <div className={classes.involved_actions}>
                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                        <div className={`${classes.btn_1} ${classes.action_button}`}>
+                        <div className={`${classes.action_button}`}>
                             <img src="/partner.svg" alt="Partner" />
                             <p>Become community partner</p>
                         </div>
                     </a>
                     <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                        <div className={`${classes.btn_2} ${classes.action_button}`}>
+                        <div className={` ${classes.action_button}`}>
                             <img src="/community.svg" alt="Community" />
                             <p>Become community manager</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <div className={` ${classes.action_button}`}>
+                            <img src="/mentor.svg" alt="Community" />
+                            <p>Become hackathon Mentor</p>
                         </div>
                     </a>
                 </div>

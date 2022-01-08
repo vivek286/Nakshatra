@@ -35,7 +35,7 @@ const errorPage = () => {
 
                 <div className={classes["error__content"]}>
                     <div className={classes["error__message message"]}>
-                        <h1 classNames={classes["message__title"]}>Page Not Found</h1>
+                        <h1 className={classes["message__title"]}>Page Not Found</h1>
                         <p className={classes["message__text"]}>We&apos;re sorry, the page you were looking for isn&apos;t found here. The link you followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
                     </div>
                     <div className={classes["error__nav e-nav"]}>

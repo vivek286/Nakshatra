@@ -1,0 +1,43 @@
+.footer >div{
+    margin-left: 1.5rem;
+}
+.campus_images {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.campus_img{
+    border-radius: 10px;
+}
+.footer_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.footer_text >p{
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .footer_text{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem;
+    }
+    .footer_text > p{
+        display: flex;
+        flex-direction: column;
+    }
+    .bar{
+        display: none;
+    }
+}

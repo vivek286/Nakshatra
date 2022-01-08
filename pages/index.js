@@ -10,6 +10,8 @@ import Sponsors from "../components/IndexPage/Sponsors"
 import FAQ from "../components/IndexPage/FAQ"
 import Head from "next/head"
 import { useState } from "react"
+import Contact from "../components/IndexPage/Contact"
+import Footer from "../components/IndexPage/Footer"
 
 
 export default function Home() {
@@ -32,6 +34,8 @@ export default function Home() {
         <Involved />
         <Sponsors />
         <FAQ />
+        <Contact />
+        <Footer />
       </main>
     </>
   )
