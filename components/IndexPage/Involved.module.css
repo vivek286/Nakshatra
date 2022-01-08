@@ -3,7 +3,7 @@
 }
 .container_subheading{
     color: var(--purple);
-    font-weight:500;
+    font-weight:600;
 }
 .involved_actions{
     display: flex;

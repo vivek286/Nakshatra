@@ -2,6 +2,7 @@
     margin-left: 1.5rem;
 }
 .campus_images {
+    margin-top: 2rem;
     width: 100%;
     display: flex;
     gap: 3rem;
@@ -26,6 +27,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .footer >div{
+        margin-left: 0rem;
+    }
     .footer_text{
         flex-direction: column-reverse;
         justify-content: center;
