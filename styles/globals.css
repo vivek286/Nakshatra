@@ -56,7 +56,7 @@ p{
   html {
     font-size: 55%;
   }
-  section{
+  section,footer{
     padding: 5rem 3rem;
   }
 }
