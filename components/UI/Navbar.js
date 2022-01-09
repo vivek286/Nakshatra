@@ -13,7 +13,7 @@ const Navbar = ({ setPageTitle }) => {
                     <li onClick={() => setPageTitle && setPageTitle('About – Nakshatra')}><Link href="/#About" >About</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Events – Nakshatra')}><Link href="/#Events">Events</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Timeline – Nakshatra')}><Link href="/#Timeline">Timeline</Link></li>
-                    <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="/#Contact">Contact</Link></li>
+                    <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="#Contact">Contact</Link></li>
                 </ul>
             </nav>
         </header>
