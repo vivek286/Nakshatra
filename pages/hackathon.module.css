@@ -1,0 +1,141 @@
+.hackathon{
+    padding-top: 12rem; 
+
+}
+.hackathon > h2{
+text-align: center;
+font-weight: 800;
+font-size: 6rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+.heading h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+.heading p{
+    font-weight: 500;
+    max-width: 60rem;
+    text-align: center;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.countdown_timer{
+    height: 20rem;
+    width: 14rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+.countdown_timer > .countdown_value,.countdown_timer > .countdown_unit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown_timer > .countdown_value > p{
+    font-size: 4rem;
+    font-weight: 500;
+}
+.countdown_timer > .countdown_unit > p{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.countdown_value{
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.countdown_unit{
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #fff;
+    color: #000;
+}
+.countdown_unit > p{
+    padding: 1rem 0;
+}
+.countdown_days > .countdown_value{
+    background: #45E3F1;
+}
+.countdown_hour > .countdown_value{
+    background: #D735FF;
+}
+.countdown_min > .countdown_value{
+    background: #FE0199;
+}
+.countdown_sec > .countdown_value{
+    background: #FF8000;
+}
+.btn{
+    margin-top: 1rem;
+    background: #4285F4;
+    padding: 1rem 2rem;
+    height: 5rem;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width:900px) {
+    .countdown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hackathon{
+        padding-top: 15rem;
+    }
+    .hackathon > h2{
+        text-align: center;
+        font-weight: 800;
+        font-size: 5rem;
+        margin: 5rem 0;
+    }
+    .countdown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .countdown_timer{
+        height: 13rem;
+        width: 10rem;
+    }
+    .countdown_timer > .countdown_value > p{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .countdown_timer > .countdown_unit > p{
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    .heading{
+        padding: 3rem 0;
+    }
+    .heading h1{
+        font-size: 3.5rem;
+        font-weight: 500;
+    }
+    .heading p{
+        max-width: 40rem;
+    }
+    
+}
