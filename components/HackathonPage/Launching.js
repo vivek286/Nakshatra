@@ -1,6 +1,13 @@
 import classes from './Launching.module.css';
+import countItDown from 'count-it-down'
+import { useEffect } from 'react';
+
+const hackhatonDate = new Date("January 10, 2022 00:00:00");
 
 const Launching = () => {
+
+
+
     return (
         <section className={classes.hackathon}>
             <h2>Launching In</h2>

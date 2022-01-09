@@ -1,0 +1,38 @@
+.special_container{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.prize_card{
+    background: linear-gradient(180deg, rgba(69, 227, 241, 0.83) 0%, #D735FF 100%);
+    height: 48rem;
+    width: 35rem;
+    border-radius: 35px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+}
+.card_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #45E3F1;
+border-top-left-radius: 35px;
+border-top-right-radius: 35px;
+}
+.card_title p{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.card_details{
+    background: linear-gradient(180deg, rgba(69, 227, 241, 0.83) 0%, #D735FF 100%);
+    padding: 2rem;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.card_details p{
+font-weight: 400;
+}

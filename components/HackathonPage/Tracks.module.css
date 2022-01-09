@@ -1,0 +1,41 @@
+.tracks{
+    margin-top: 5rem;
+}
+.tracks_text{
+    margin-left: 1.5rem;
+    max-width: 50%;
+}
+.tracks_grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 10rem;
+    padding-top: 5rem;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+}
+@media screen and (max-width:1100px) {
+    .tracks_grid{
+        grid-template-columns: 1fr 1fr;
+        padding:0 5rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .tracks_grid{
+        grid-template-columns: 1fr 1fr ;
+        padding:0 3rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .tracks_text{
+        margin-left: 1.5rem;
+        max-width: 80%;
+    }
+    .tracks_grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
