@@ -7,7 +7,9 @@
     color: black;
     min-height: 38rem;
     width: 100%;
-    background: linear-gradient(to bottom, #FBBC04,#FDA002);
+    /* background: linear-gradient(to bottom, #FBBC04,#FDA002); */
+    background: linear-gradient(179.77deg, #FBBC04 0.18%, #FBBC04 0.19%, #FF8000 99.79%, #FDA102 99.79%, #FDA002 99.79%);
+
 }
 /* .card:nth-of-type(1){
     background: linear-gradient(to right bottom, #FFC107,#FF8000);

@@ -9,7 +9,7 @@
     color: var(--purple-2);
 }
 .sponsors_subheading > p > a:hover{
-    color: white !important;
+    color: var(--purple-2);
 }
 .sponsors_details{
     padding: 2rem 0;

@@ -22,7 +22,8 @@
     border-radius: 10px;
     border-bottom-left-radius:0 ;
     border-bottom-right-radius:0 ;
-    background: linear-gradient(to bottom, #FF8000,rgba(254, 1, 153, 0));
+    background: linear-gradient(180deg, #FF8000 0%,hsla(324, 99%, 50%, 0.767) ,rgba(254, 1, 153, 0) 100%);
+
 }
 
 .speaker_img{

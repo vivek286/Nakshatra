@@ -26,7 +26,9 @@
     color: #fff;
     width: 100%;
     border-radius: 5px;
-    background: linear-gradient(to right, #FE0199,#FE0199,#FE0199,rgba(254, 1, 153, 0.63), #fe019900);
+    /* background: linear-gradient(to right, #FE0199,#FE0199,#FE0199,rgba(254, 1, 153, 0.63), #fe019900); */
+    background: linear-gradient(90deg, rgba(254, 1, 153, 0.86) 0.93%, rgba(254, 1, 153, 0.86) 34.08%, rgba(254, 1, 153, 0.86) 63.1%, rgba(254, 1, 153, 0.5418) 85.46%, rgba(254, 1, 153, 0) 100%);
+
 }
 .description > p{
     font-weight: 300;

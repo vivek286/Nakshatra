@@ -1,0 +1,44 @@
+.rules_container{
+    margin-left: 10rem;
+   
+}
+.rules_container ul{
+    gap: 1rem;
+    margin-left: 2rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rules_container ul li{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.rules_container ul li{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.rules_container ul li img{
+  width: 3rem;
+  transform: rotate(-15deg);
+}
+
+@media screen and (max-width:900px) {
+    .rules_container{
+        margin-left: 5rem;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .rules_container{
+        margin-left: 0rem;
+    }
+    .rules_container ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: flex-start;
+        list-style: none;
+        gap: 2rem;
+    }
+}
