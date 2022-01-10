@@ -10,6 +10,7 @@ import Navbar from "../components/UI/Navbar";
 const Hackathon = () => {
     return (<>
         <Navbar />
+
         <main>
             <Launching />
             <Tracks />

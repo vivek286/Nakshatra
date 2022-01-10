@@ -24,7 +24,14 @@ export default function Home() {
         <title>{pageTitle}</title>
       </Head>
       <Navbar setPageTitle={setPageTitle} />
-      <main>
+      <div style={{ position: "absolute", zIndex: '0' }}>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='stars4'></div>
+        <div id='stars5'></div>
+      </div>
+      <main style={{ position: "relative", zIndex: '10' }}>
         <Hero />
         <About />
         <Prizes />
