@@ -1,9 +1,15 @@
 .wrapper{
-    background: linear-gradient(to bottom,#000A2B,#8C41C6,#BD54FC,#D735FF);
+    background: linear-gradient(to bottom,#000A2B,#8c41c6ab,#be54fc7e,#d735ff38);
     min-height: 100vh;
 }
 .sessions{
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     gap: 10rem;
+}
+.stars{
+    position: absolute;
+    z-index: 0;
 }

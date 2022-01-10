@@ -5,7 +5,7 @@ const SessionItem = ({ heading, speaker, description, points, date, time }) => {
         <div className={classes.session_item}>
             <div className={classes.left}>
                 <div className={classes.speaker_img}>
-                    {/* <img src="" alt="" /> */}
+                    <img src="/session_head.png" alt="Astronout Head" />
                 </div>
                 <div className={classes.speaker_details}>
                     <p className={classes.name}>{speaker.name}</p>

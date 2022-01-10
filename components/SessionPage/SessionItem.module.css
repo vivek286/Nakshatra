@@ -26,7 +26,10 @@
     width: 25rem;
     object-fit: contain;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: transparent;
+}
+.speaker_img img{
+ width: 100%;
 }
 
 .name {
