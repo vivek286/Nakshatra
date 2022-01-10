@@ -60,25 +60,32 @@
 }
 .right > h2{
     font-size:4rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 .right > p{
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .right ul li{
     font-size: 2rem;
     font-weight: 500;
 }
 .time > p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
+@media screen and (max-width:900px) {
+    .session_item {
+    max-width: 95%;
+    }
+}
 @media screen and (max-width:600px) {
     .session_item {
        flex-direction: column;
        gap:2rem;
+       padding: 0;
+    max-width: 100%;
     }
     .session_item:nth-child(2n){
         flex-direction: column;

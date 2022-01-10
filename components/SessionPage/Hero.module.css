@@ -34,7 +34,7 @@
         padding-top: 15rem;
         flex-direction: column;
         justify-content: center;
-        min-height: 80vh;
+        min-height: 90vh;
     }
     .hero_heading{
         padding: 1rem;
@@ -50,6 +50,7 @@
         flex-direction: column;
         justify-content: center;
         min-height: 80vh;
+        margin-bottom: 5rem;
     }
     .hero_img{
         height: 30rem;
