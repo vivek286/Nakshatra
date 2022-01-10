@@ -86,7 +86,7 @@ html {
   #stars5:after {
     content: " ";
     position: absolute;
-    top: 5000px;
+    top: 4500px;
     width: 1px;
     height: 1px;
     background: transparent;
