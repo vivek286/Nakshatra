@@ -18,7 +18,7 @@ const SessionItem = ({ heading, speaker, description, points, date, time }) => {
                 <h2>{heading}</h2>
                 <p>{description}</p>
                 <ul>
-                    {points.map((item) => <li>{item}</li>)}
+                    {points.map((item, index) => <li key={index}>{item}</li>)}
                     {/* <li>Blah</li>
                     <li>Blah</li>
                     <li>Blah</li> */}
