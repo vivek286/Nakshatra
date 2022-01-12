@@ -31,6 +31,7 @@ border-top-right-radius: 35px;
 .card_details{
     background: linear-gradient(180deg, rgba(69, 227, 241, 0.83) 0%, #D735FF 100%);
     padding: 2rem;
+    width: 100%;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }

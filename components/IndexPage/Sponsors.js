@@ -13,9 +13,10 @@ const Sponsors = () => {
                             <img src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <img src="/sponsors/google.svg" alt="Google" />
+                            <p>Coming Soon...</p>
+                            {/* <img src="/sponsors/google.svg" alt="Google" />
                             <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" />
+                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>
@@ -25,9 +26,10 @@ const Sponsors = () => {
                             <img src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <img src="/sponsors/google.svg" alt="Google" />
+                            <p>Coming Soon...</p>
+                            {/* <img src="/sponsors/google.svg" alt="Google" />
                             <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" />
+                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>
@@ -37,9 +39,10 @@ const Sponsors = () => {
                             <img src="/sponsors/bronze.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <img src="/sponsors/google.svg" alt="Google" />
+                            <p>Coming Soon...</p>
+                            {/* <img src="/sponsors/google.svg" alt="Google" />
                             <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" />
+                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
                         </div>
                     </div>
                 </div>

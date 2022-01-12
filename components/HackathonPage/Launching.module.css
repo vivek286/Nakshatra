@@ -50,6 +50,9 @@ font-size: 6rem;
     font-weight: 500;
     font-size: 2.5rem;
 }
+.countdown_value > p{
+    font-size: 6rem !important;
+}
 .countdown_value{
     border-radius: 10px;
     border-bottom-left-radius: 0;
@@ -97,6 +100,9 @@ font-size: 6rem;
         align-items: center;
         gap: 3rem;
     }
+    .countdown_value > p{
+        font-size: 5rem !important;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -137,5 +143,7 @@ font-size: 6rem;
     .heading p{
         max-width: 40rem;
     }
-    
+    .countdown_value > p{
+        font-size: 4rem !important;
+    }
 }

@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 const About = () => {
     return (
         <section className={classes.about} id="About">
-            <Fade bottom>
+            <Fade bottom distance="30px" duration={1000}>
                 <h2>About</h2>
                 <div>
                     <p>

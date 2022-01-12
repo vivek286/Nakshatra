@@ -10,7 +10,7 @@ const Judges = () => {
                         {/* <img src="" alt="" /> */}
                     </div>
                     <div className={classes.card_details}>
-                        <p className={classes.name}>Tanishqa Porwal</p>
+                        <p className={classes.name}>Coming Soon...</p>
                         <p className={classes.org}>MU-GDSC</p>
                         <p className={classes.designation}>Lead</p>
                     </div>
@@ -20,7 +20,7 @@ const Judges = () => {
                         {/* <img src="" alt="" /> */}
                     </div>
                     <div className={classes.card_details}>
-                        <p className={classes.name}>Tanishqa Porwal</p>
+                        <p className={classes.name}>Coming Soon...</p>
                         <p className={classes.org}>MU-GDSC</p>
                         <p className={classes.designation}>Lead</p>
                     </div>
@@ -30,7 +30,7 @@ const Judges = () => {
                         {/* <img src="" alt="" /> */}
                     </div>
                     <div className={classes.card_details}>
-                        <p className={classes.name}>Tanishqa Porwal</p>
+                        <p className={classes.name}>Coming Soon...</p>
                         <p className={classes.org}>MU-GDSC</p>
                         <p className={classes.designation}>Lead</p>
                     </div>

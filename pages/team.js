@@ -22,15 +22,13 @@ export default function Home() {
       </Head>
       <Navbar setPageTitle={setPageTitle} />
       <main>
-      <Page/>
-      <Core/>
-      <Mentor/>
-      <Executive/>
+        <Page />
+        <Core />
+        <Mentor />
+        <Executive />
       </main>
-      
-      
-      <Footer/>
-      
+      <Footer />
+
     </>
   )
 }

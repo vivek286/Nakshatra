@@ -6,13 +6,13 @@ const TrackItemsCard = (props) => {
         <>
             <div className={classes.card}>
                 <h3>
-                    Human Well Being
+                    Coming Soon...
                 </h3>
                 <ul>
-                    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nisi. Sunt vel sequi ut distinctio!</p> </li>
-                    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nisi. Sunt vel sequi ut distinctio!</p> </li>
-                    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nisi. Sunt vel sequi ut distinctio!</p> </li>
-                    <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nisi. Sunt vel sequi ut distinctio!</p> </li>
+                    <li><p>Coming Soon...</p> </li>
+                    <li><p>Coming Soon...</p> </li>
+                    <li><p>Coming Soon...</p> </li>
+                    <li><p>Coming Soon...</p> </li>
                 </ul>
             </div>
         </>
