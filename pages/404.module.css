@@ -1,9 +1,14 @@
 .top-header:before {
     background-image: url(https://1.bp.blogspot.com/-gxsOcYWghHA/Xp_izTh4sFI/AAAAAAAAU8s/y637Fwg99qAuzW9na_NT_uApny8Vce95gCEwYBhgL/s1600/header-footer-gradient-bg.png);
+    background-size: cover;
  
 }
 .link{
     overflow-y:hidden;
+}
+.main{
+  max-height: 100vh;
+  overflow-y: hidden;
 }
 .top-header:before {
     content: '';
@@ -15,7 +20,7 @@
     position: absolute;
     top: 0;
     left: 0;
-  opacity:0.5;
+  opacity:0;
 }
 
 
@@ -123,6 +128,7 @@
 
 .error__overlay {
   position: absolute;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -132,6 +138,7 @@
 
 .error__content {
   position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   width: 100%;
@@ -290,7 +297,7 @@ font-size: 5rem !important;
 
 /* 2.3. Lamp */
 .lamp {
-  position: absolute;
+  position: fixed;
   left: 0px;
   right: 0px;
   top: 0px;

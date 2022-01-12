@@ -11,19 +11,13 @@
     background: linear-gradient(179.77deg, #FBBC04 0.18%, #FBBC04 0.19%, #FF8000 99.79%, #FDA102 99.79%, #FDA002 99.79%);
 
 }
-/* .card:nth-of-type(1){
-    background: linear-gradient(to right bottom, #FFC107,#FF8000);
+.link:hover{
+    color: none;
+    text-shadow: none;
 }
-
-.card:nth-of-type(2){
-    background: url('/card-3.png')
-}
-.card:nth-of-type(3){
-    background: linear-gradient(to bottom, #C4C4C4,rgba(196, 196, 196,0.2));
-} */
 .card h3{
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 .heading{
     display: flex;
@@ -32,6 +26,10 @@
 .heading img{
     width: 5rem;
     color: #000;
+}
+.description p{
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
 @media screen and (max-width:900px) {

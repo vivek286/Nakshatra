@@ -7,13 +7,9 @@ const Events = () => {
         <h2>Events</h2>
         <div className={classes.events_card}>
 
-            <EventCard heading="Sessions" description="The workshops are on some of the hot topics of today’s time, which will improve your intellectual skills along with technical skills. The speakers of the workshops are experts who will be sharing their valuable knowledge with all." img="session" card="1" />
-
-
-            <EventCard heading="Hackathons" img="hacker" card="2" />
-
-
-            <EventCard heading="Contests" img="trophy" card="3" />
+            <EventCard heading="Sessions" description="The workshops are on some of the hot topics of today’s time, which will improve your intellectual skills along with technical skills. The speakers of the workshops are experts who will be sharing their valuable knowledge with all." img="session" card="1" link="sessions" />
+            <EventCard heading="Hackathons" img="hacker" card="2" link="hackathons" />
+            <EventCard heading="Contests" img="trophy" card="3" link="contests" />
 
         </div>
     </section>
