@@ -8,6 +8,18 @@
    margin-bottom: 4rem;
 
 }
+.grid_container1{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+ 
+}
+.grid_container2{
+    display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+ 
+}
 .circle{
     background-color: #C4C4C4;
     width:100%;
