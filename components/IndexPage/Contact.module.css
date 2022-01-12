@@ -19,9 +19,23 @@
     width: 100%;
 }
 
-.social_media_logos > img{
+
+.social_media_logos {
+    display: flex;
+    gap: 1rem;
+}
+
+.social_media_logos>div {
     width: 3rem;
+    padding: 0.1rem;
+    height: 3rem;
     cursor: pointer;
+    border-radius: 50%;
+    /* background-color: #838485; */
+}
+
+.social_media_logos>div>img {
+    width: 100%;
 }
 .contact_details{
     display: flex;

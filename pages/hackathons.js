@@ -6,12 +6,13 @@ import SpecialPrizes from "../components/HackathonPage/Special-Prizes";
 import Tracks from "../components/HackathonPage/Tracks";
 import Footer from "../components/UI/Footer";
 import Navbar from "../components/UI/Navbar";
+import StarsBackground from "../components/UI/Stars"
 
 const Hackathon = () => {
     return (<>
+        <StarsBackground />
         <Navbar />
-
-        <main>
+        <main style={{ position: 'relative', zIndex: 2 }}>
             <Launching />
             <Tracks />
             <Prizes />

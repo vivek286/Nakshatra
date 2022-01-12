@@ -12,6 +12,7 @@ import Head from "next/head"
 import { useState } from "react"
 import Contact from "../components/IndexPage/Contact"
 import Footer from "../components/IndexPage/Footer"
+import StarsBackground from "../components/UI/Stars"
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Head>
         <title>{pageTitle}</title>
       </Head>
+      <StarsBackground />
       <Navbar setPageTitle={setPageTitle} />
       <main style={{ position: "relative", zIndex: '10' }}>
         <Hero />

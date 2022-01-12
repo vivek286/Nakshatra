@@ -7,7 +7,7 @@ import Mentor from "../components/Team/mentor"
 import Executive from "../components/Team/executive"
 import Head from "next/head"
 import { useState } from "react"
-import Contact from "../components/IndexPage/Contact"
+import StarsBackground from "../components/UI/Stars"
 
 
 
@@ -20,6 +20,7 @@ export default function Home() {
       <Head>
         <title>{pageTitle}</title>
       </Head>
+      <StarsBackground />
       <Navbar setPageTitle={setPageTitle} />
       <main>
         <Page />

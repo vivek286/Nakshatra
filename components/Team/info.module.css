@@ -32,6 +32,8 @@
     height: 20rem;
     width: 15rem;
     margin-bottom: 10rem;
+    position: relative;
+    z-index:2;
     /* background-color: red; */
 
 }

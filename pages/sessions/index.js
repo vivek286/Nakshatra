@@ -4,6 +4,7 @@ import classes from './sessions.module.css';
 import Hero from "../../components/SessionPage/Hero";
 import SessionItem from "../../components/SessionPage/SessionItem";
 import Footer from '../../components/UI/Footer';
+import StarsBackground from '../../components/UI/Stars';
 
 const Session = () => {
     return (
@@ -12,6 +13,7 @@ const Session = () => {
                 <title>Sessions</title>
             </Head>
             <main className={classes.wrapper}>
+                <StarsBackground />
                 <Navbar />
                 <Hero />
                 <section className={classes.sessions}>
