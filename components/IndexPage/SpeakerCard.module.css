@@ -30,12 +30,19 @@
     position: absolute;
     z-index: 1;
     background: #fff;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     top: 35%;
     left: 50%;
     transform: translate(-50%,-45%);
+}
+.speaker_img > img{
+    width: 100%;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
 }
 .speaker_about{
 position: relative;color: white;

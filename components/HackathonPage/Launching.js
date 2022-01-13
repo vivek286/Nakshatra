@@ -53,9 +53,15 @@ const Launching = () => {
                     Sandali write some innovative types here, of two lines,
                     innovatiion, real problems blah blah
                 </p>
-                <a href="#"> <button className={classes.btn}>
+                <div
+                    class="apply-button"
+                    data-hackathon-slug="nakshatra"
+                    data-button-theme="light"
+                    style={{ height: "44px", width: " 312px" }}
+                >Register Now</div>
+                {/* <a href="#"> <button className={classes.btn}>
                     Register
-                </button></a>
+                </button></a> */}
             </div>
         </section>
     )

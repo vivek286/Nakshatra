@@ -3,30 +3,20 @@ import Info from "./info";
 
 let mentors = [
   {
+    image: "/team/Atharva_Maheshwari.jpg",
+    name: "Atharva Maheshwari",
+    designation: "Operation Head"
+  }, {
+    image: "/team/khushang.jpg",
+    name: "Khushang Dosi",
+    designation: "Corporate & PR Head"
+  }, {
     image: "",
-    name: "FULL NAME",
-    designation: "Designation"
-  },
-  {
+    name: "Nandini Malviya",
+    designation: "Content & Design Head"
+  }, {
     image: "",
-    name: "FULL NAME",
-    designation: "Designation"
-  }
-  ,
-  {
-    image: "",
-    name: "FULL NAME",
-    designation: "Designation"
-  }
-  ,
-  {
-    image: "",
-    name: "FULL NAME",
-    designation: "Designation"
-  },
-  {
-    image: "",
-    name: "FULL NAME",
+    name: "Ritik Tailor",
     designation: "Designation"
   }
 ]

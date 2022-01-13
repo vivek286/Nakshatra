@@ -66,6 +66,7 @@ width: 100%;
 @media only screen and (max-width: 600px) {
     .hero{
         height: 100vh;
+        background-image: url('../../public/mob-banner.png');
     }
 .hero_logo{
     width: 30rem;

@@ -14,9 +14,16 @@ const Sponsors = () => {
                         </div>
                         <div className={classes.sponsor_images}>
                             <p>Coming Soon...</p>
-                            {/* <img src="/sponsors/google.svg" alt="Google" />
-                            <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
+                            {/* <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/devfolio.svg" alt="Google" />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/polygon.svg" alt="Google" />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/tezos.svg" alt="Google" />
+                            </div> */}
+
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>
@@ -27,9 +34,12 @@ const Sponsors = () => {
                         </div>
                         <div className={classes.sponsor_images}>
                             <p>Coming Soon...</p>
-                            {/* <img src="/sponsors/google.svg" alt="Google" />
-                            <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
+                            {/* <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/celo.svg" alt="Google" />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/filecoin.svg" alt="Google" />
+                            </div> */}
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>

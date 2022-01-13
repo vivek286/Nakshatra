@@ -1,14 +1,29 @@
 import { useState } from 'react';
 import TimelineItem from './Timeline-item';
 import classes from './Timeline.module.css';
-import Fade from 'react-reveal/Fade';
 
 
-const feb1 = [{ time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop', active: true }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }, { time: '7:30', speaker: 'Coming Soon...', title: 'Web Dev Workshop' }];
+const day1 = [{ time: '4:30', speaker: 'Coming Soon...', title: 'Opening Session', active: true },
+{ time: '5:00', speaker: 'Coming Soon...', title: 'Hackathon Announcement' },
+{ time: '5:30', speaker: 'Coming Soon...', title: 'DevOps' },
+{ time: '7:30', speaker: 'Coming Soon...', title: 'Blog Writing Announcement' },
+{ time: '7:30', speaker: 'Coming Soon...', title: 'Networking' },
+{ time: '8:30', speaker: 'Coming Soon...', title: 'End Of Day 1' },
+{ time: '10:00', speaker: 'Coming Soon...', title: 'Gaming Night' },];
 
-const feb2 = [{ time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop', active: true }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }, { time: '8:00', speaker: 'Coming Soon', title: 'Android Workshop' }];
+const day2 = [{ time: '10:30', speaker: 'Coming Soon', title: 'UX-UI', active: true },
+{ time: '12:30', speaker: 'Coming Soon', title: 'Poster/Digital Art Announcement' },
+{ time: '12:45', speaker: 'Coming Soon', title: 'Break' },
+{ time: '1:30', speaker: 'Coming Soon', title: 'Networking' },
+{ time: '3:30', speaker: 'Coming Soon', title: 'Women’s Opportunities' },
+{ time: '6:00', speaker: 'Coming Soon', title: 'Coding Competition' },];
 
-const feb3 = [{ time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop', active: true }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Coming Soon', title: 'CP Workshop' }, { time: "9:00", speaker: 'Ritik Tailor', title: 'CP Workshop' }];
+const day3 = [{ time: '10:30', speaker: 'Coming Soon', title: 'AI/ML Session With Brainstorming', active: true },
+{ time: '12:30', speaker: 'Coming Soon', title: 'Break' },
+{ time: '1:30', speaker: 'Coming Soon', title: 'Crypto/Blockchain' },
+{ time: '4:00', speaker: 'Coming Soon', title: 'Internship / Remote Job Session' },
+{ time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony With Winners Announcement ' },];
+
 
 const Timeline = () => {
     const [activeDate, setActiveDate] = useState(1);
@@ -25,14 +40,14 @@ const Timeline = () => {
             <div className={classes.timeline_container}>
                 <p className={classes.container_subheading}>Mark your calendar, to not miss any event!</p>
                 <div className={classes.dates}>
-                    <p className={`${activeDate === 1 && classes.active}`} onClick={() => changeDateHandler(1)}>Feb 1</p>
-                    <p className={`${activeDate === 2 && classes.active}`} onClick={() => changeDateHandler(2)}>Feb 2</p>
-                    <p className={`${activeDate === 3 && classes.active}`} onClick={() => changeDateHandler(3)}>Feb 3</p>
+                    <p className={`${activeDate === 1 && classes.active}`} onClick={() => changeDateHandler(1)}>Day 1</p>
+                    <p className={`${activeDate === 2 && classes.active}`} onClick={() => changeDateHandler(2)}>Day 2</p>
+                    <p className={`${activeDate === 3 && classes.active}`} onClick={() => changeDateHandler(3)}>Day 3</p>
                 </div>
                 <div className={classes.timeline_items}>
-                    {activeDate === 1 && feb1.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
-                    {activeDate === 2 && feb2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
-                    {activeDate === 3 && feb3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
+                    {activeDate === 1 && day1.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
+                    {activeDate === 2 && day2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
+                    {activeDate === 3 && day3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} />)}
                 </div>
 
             </div>

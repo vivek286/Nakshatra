@@ -15,7 +15,7 @@ const MobileNav = ({ setPageTitle }) => {
                 <div className={classes.nav_list}>
                     <ul>
                         <li><Link href="/#Home" >Home</Link></li>
-                        <li onClick={() => { setActive(false); setPageTitle && setPageTitle('About – Nakshatra') }}><Link href="/hackathons" >Hackathons</Link></li>
+                        <li onClick={() => { setActive(false); setPageTitle && setPageTitle('About – Nakshatra') }}><Link href="/hackathons" >Hackathon</Link></li>
                         <li onClick={() => { setActive(false); setPageTitle && setPageTitle('Events – Nakshatra') }}><Link href="/contests">Contests</Link></li>
                         <li onClick={() => { setActive(false); setPageTitle && setPageTitle('Events – Nakshatra') }}><Link href="/sessions">Sessions</Link></li>
                         <li onClick={() => { setActive(false); setPageTitle && setPageTitle('Timeline – Nakshatra') }}><Link href="/#Timeline">Timeline</Link></li>

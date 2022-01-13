@@ -4,7 +4,7 @@ import MobileNav from './MobileNav';
 import classes from './Navbar.module.css';
 
 const Navbar = ({ setPageTitle }) => {
-    const [solidBackground, setSolidBackground] = useState(true);
+    const [solidBackground, setSolidBackground] = useState(false);
 
 
     useEffect(() => {
@@ -39,7 +39,7 @@ const Navbar = ({ setPageTitle }) => {
             <nav className={classes.navbar}>
                 <ul>
                     <li><Link href="/#Home" >Home</Link></li>
-                    <li onClick={() => setPageTitle && setPageTitle('About – Nakshatra')}><Link href="/hackathons" >Hackathons</Link></li>
+                    <li onClick={() => setPageTitle && setPageTitle('About – Nakshatra')}><Link href="/hackathons" >Hackathon</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Events – Nakshatra')}><Link href="/contests">Contests</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Events – Nakshatra')}><Link href="/sessions">Sessions</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Timeline – Nakshatra')}><Link href="/#Timeline">Timeline</Link></li>

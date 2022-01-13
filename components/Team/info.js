@@ -1,19 +1,25 @@
+
 import classes from "./info.module.css"
 function Info(props) {
+  console.log(props.image)
   return (
     <div>
       <div className={classes.member}>
-        <div className={classes.circle}>{props.image}</div>
-        <br />
-        <div className={classes.in_text}>{props.name}</div>
-        <br />
-        <div className={classes.in_text}>{props.designation}</div>
-        <br />
-        <div className={classes.rec_box}>
-          <div className={classes.rectangle}></div>
+        <div className={classes.card_img}>
+          <img src={props.image} alt={props.name} />
+        </div>
+        <div className={classes.text}>
+          <p className={classes.in_text}>{props.name}</p>
+          <p className={classes.in_text}>{props.designation}</p>
+        </div>
+        <div className={classes.links}>
+          <a href="/">
+            <p>Connect on </p>
+            <img src="/social/linkedin.png" alt="" />
+          </a>
         </div>
       </div>
-    </div>
+    </div >
 
   )
 }

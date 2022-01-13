@@ -1,18 +1,20 @@
 import classes from './Track-items-card.module.css';
 
 const TrackItemsCard = (props) => {
-    const a = ['a', 'a', 'a', 'a'];
+    console.log(props.points)
     return (
         <>
             <div className={classes.card}>
                 <h3>
-                    Coming Soon...
+                    {props.title}
                 </h3>
+                <p className={classes.subheading}>{props.subheading}</p>
                 <ul>
-                    <li><p>Coming Soon...</p> </li>
-                    <li><p>Coming Soon...</p> </li>
-                    <li><p>Coming Soon...</p> </li>
-                    <li><p>Coming Soon...</p> </li>
+                    {props.points.map((item) => {
+                        return <li>
+                            <p>{item}</p>
+                        </li>
+                    })}
                 </ul>
             </div>
         </>

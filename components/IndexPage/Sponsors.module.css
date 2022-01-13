@@ -38,13 +38,25 @@
 .sponsor_images{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5rem;
 }
-.sponsor_images > img{
-    height:5rem;
-    background-color: #fff;
+.sponsor_images_container{
+    height: 9rem;
+    background-color: #101e4dcb;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width:40rem;
+}
+.sponsor_images  img{
+    height:7rem;
     border-radius: 10px;
 }
 
@@ -55,5 +67,14 @@
     .sponsor_div{
         align-items: center;
         gap: 4rem;
+    }
+    .sponsor_images_container{
+        height: 8rem;
+        width:40rem;
+    }
+    .sponsor_images  img{
+        height:5rem;
+        /* background-color: #fff; */
+        border-radius: 10px;
     }
 }

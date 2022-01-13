@@ -1,5 +1,4 @@
 import Footer from "../components/UI/Footer"
-import Footer2 from "../components/IndexPage/Footer"
 import Navbar from "../components/UI/Navbar"
 import Page from "../components/Team/page"
 import Core from "../components/Team/core"
@@ -8,6 +7,7 @@ import Executive from "../components/Team/executive"
 import Head from "next/head"
 import { useState } from "react"
 import StarsBackground from "../components/UI/Stars"
+import classes from '../styles/team.module.css';
 
 
 
@@ -28,8 +28,22 @@ export default function Home() {
         <Mentor />
         <Executive />
       </main>
-      <Footer />
+      <div className={classes.credits}>
+        <div className={classes.design}>
+          <p>
+            Designed by <a href="https://github.com/bchiang7/v3" target="_blank" rel="noopener noreferrer" className={classes.link}>Tanishqa</a>
+          </p>
+        </div>
+        <div className={classes.developed}>
+          <p>
+            Developed By <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Bilal, </a>
+            <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Vivek &amp;, </a>
+            <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Yash</a>
+          </p>
+        </div>
 
+      </div>
+      <Footer />
     </>
   )
 }

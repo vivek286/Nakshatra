@@ -1,0 +1,10 @@
+.credits{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.credits  p{ 
+    opacity: 0.3;
+}

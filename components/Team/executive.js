@@ -5,88 +5,81 @@ let mentors = [
 
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Anshul Soni",
+        designation: "Operations Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Purvi Mishra",
+        designation: "Operations Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Aditi Mandlik",
+        designation: "Operations Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Atharv Vani",
+        designation: "Corporate & PR Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Aditi Modi",
+        designation: "Corporate & PR Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Shivendra Pratap Patel",
+        designation: "Corporate & PR Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Vanshita Mathur",
+        designation: "Corporate & PR Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Sandali Maheshwari",
+        designation: "Content Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Vedika Hirpathak",
+        designation: "Content Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Muskan Sogani",
+        designation: "Content Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Tanya Singh",
+        designation: "Design Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Priyanshi Agrawal",
+        designation: "Design Team"
     }
     ,
     {
         image: "",
-        name: "FULL NAME",
-        designation: "Designation"
+        name: "Monesh Goyal",
+        designation: "Technical Team"
     }
-    ,
-    {
-        image: "",
-        name: "FULL NAME",
-        designation: "Designation"
-    }
-
 ]
 export default function mentor() {
     return (
