@@ -13,7 +13,7 @@ function Info(props) {
           <p className={classes.in_text}>{props.designation}</p>
         </div>
         <div className={classes.links}>
-          <a href="/">
+          <a href="/a">
             <p>Connect on </p>
             <img src="/social/linkedin.png" alt="" />
           </a>

@@ -45,7 +45,7 @@ const Tracks = () => {
                 </p>
             </div>
             <div className={classes.tracks_grid}>
-                {tracks.map((item) => { return <TrackItems title={item.title} subheading={item.subheading} points={item.points} /> })}
+                {tracks.map((item, index) => { return <TrackItems key={index} title={item.title} subheading={item.subheading} points={item.points} /> })}
             </div>
         </section>
     )

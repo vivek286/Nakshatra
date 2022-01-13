@@ -54,7 +54,7 @@ const Launching = () => {
                     innovatiion, real problems blah blah
                 </p>
                 <div
-                    class="apply-button"
+                    className="apply-button"
                     data-hackathon-slug="nakshatra"
                     data-button-theme="light"
                     style={{ height: "44px", width: " 312px" }}
