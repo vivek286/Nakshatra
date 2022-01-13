@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import MobileNav from './MobileNav';
 import classes from './Navbar.module.css';
 
 const Navbar = ({ setPageTitle }) => {
-    const [solidBackground, setSolidBackground] = useState();
+    const [solidBackground, setSolidBackground] = useState(true);
 
 
     useEffect(() => {
@@ -28,9 +29,13 @@ const Navbar = ({ setPageTitle }) => {
             background: `${solidBackground ? '#000A2B' : 'transparent'}`,
             boxShadow: `${solidBackground ? `1px 1px 1px #000A2B` : 'none'}`
         }}>
-            <div className={classes.header_logo}>
-                <img src="/nav_logo.png" alt="" />
-            </div>
+            <Link href="/">
+                <a href="">
+                    <div className={classes.header_logo}>
+                        <img src="/nav_logo.png" alt="" />
+                    </div>
+                </a></Link>
+            <MobileNav setPageTitle={setPageTitle} />
             <nav className={classes.navbar}>
                 <ul>
                     <li><Link href="/#Home" >Home</Link></li>
