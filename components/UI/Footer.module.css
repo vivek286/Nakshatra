@@ -38,7 +38,7 @@
     /* background-color: #838485; */
 }
 
-.social_media_logos>div>img {
+.social_media_logos div img {
     width: 100%;
 }
 
@@ -69,7 +69,7 @@
     font-weight: 400;
 }
 
-.contact_links>img {
+.contact_links img {
     width: 3rem;
 }
 

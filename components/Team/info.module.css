@@ -13,7 +13,7 @@
     border-radius: 13px;
     padding: 1rem;
     padding-bottom: 1.5rem;
-    background-color: #101e4dcb;
+    /* background-color: #101e4dcb; */
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -81,6 +81,15 @@ transform: scale(1.01) translateY(-2px);
 
 
 @media screen and (max-width:900px) {
+    .card_img > img{
+        width: 15rem;
+        height: 15rem;
+    }   
+    .member{
+        min-width: 30rem;
+    }
+}
+@media screen and (max-width:600px) {
     .card_img > img{
         width: 15rem;
         height: 15rem;

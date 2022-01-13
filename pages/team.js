@@ -31,14 +31,14 @@ export default function Home() {
       <div className={classes.credits}>
         <div className={classes.design}>
           <p>
-            Designed by <a href="https://github.com/bchiang7/v3" target="_blank" rel="noopener noreferrer" className={classes.link}>Tanishqa</a>
+            Designed by <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Tanishqa</a>
           </p>
         </div>
         <div className={classes.developed}>
           <p>
             Developed By <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Bilal, </a>
-            <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Vivek &amp;, </a>
-            <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Yash</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Vivek &amp;, </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Yash</a>
           </p>
         </div>
 

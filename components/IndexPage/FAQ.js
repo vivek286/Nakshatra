@@ -16,7 +16,7 @@ const FAQ = () => {
                 <FAQItem question="Coming Soon..." answer="Coming Soon..." />
                 <FAQItem question="Coming Soon..." answer="Coming Soon..." />
                 <div className={classes.discord}>
-                    <p>Have more questions? Join our <a href="#">discord server</a> </p>
+                    <p>Have more questions? Join our  <a href="https://discord.gg/ZNeAcpv66y" target="_blank" rel="noopener noreferrer">discord server</a> </p>
                 </div>
             </div>
         </section>

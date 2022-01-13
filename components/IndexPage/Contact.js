@@ -10,45 +10,56 @@ const Contact = () => {
                     </div>
                     <div className={classes.social_media_logos}>
                         <div>
-                            <img src="/social/instagram.svg" alt="Instagram Icon" />
+                            <a href="https://www.instagram.com/gdscmu/" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/instagram.png" alt="Instagram Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/linkedin.svg" alt="LinkedIn Icon" />
+                            <a href="https://www.linkedin.com/company/gdscmu" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/linkedin.png" alt="LinkedIn Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/discord.svg" alt="Discord Icon" />
+                            <a href="https://discord.gg/ZNeAcpv66y" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/discord.png" alt="Discord Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/telegram.svg" alt="Telegram Icon" />
+                            <a href="https://bit.ly/TelegramMUGDSC" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/telegram.png" alt="Telegram Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/twitter.svg" alt="Twitter Icon" />
+                            <a href="https://twitter.com/mugdsc" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/twitter.png" alt="Twitter Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/youtube.svg" alt="Youtube Icon" />
+                            <a href="https://www.youtube.com/channel/UCfRlm-qlPIv7GnCCLDFGYCw?sub_confirmation=1" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/youtube.png" alt="Youtube Icon" />
+                            </a>
                         </div>
                         <div>
-
-                            <img src="/social/google.svg" alt="Google Icon" />
+                            <a href="https://bit.ly/ChapterMUGDSC" target="_blank" rel="noopener noreferrer">
+                                <img src="/social/google.png" alt="Google Icon" />
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div className={classes.contact_details}>
                     <h2>Contact Us</h2>
-                    <div className={classes.contact_links}>
-                        <img src="/social/map.png" alt="" />
-                        <p> <a href="#">Medi-Caps University Indore</a></p>
-                    </div>
-                    <div className={classes.contact_links}>
-                        <img src="/social/gmail.png" alt="" />
-                        <p><a href="#"> mugdsc@gmail.com</a></p>
-
-                    </div>
+                    <a href="https://www.google.com/maps/place/Medi-Caps+University/@22.6396852,75.7835985,13.3z/data=!4m9!1m2!2m1!1smedicaps+institute+of+science+and+technology+(mist)+indore+madhya+pradesh!3m5!1s0x3962f958dcb7169d:0xd877c12078e50f0f!8m2!3d22.6210224!4d75.8035907!15sCkltZWRpY2FwcyBpbnN0aXR1dGUgb2Ygc2NpZW5jZSBhbmQgdGVjaG5vbG9neSAobWlzdCkgaW5kb3JlIG1hZGh5YSBwcmFkZXNoSKXstXNaSSJHbWVkaWNhcHMgaW5zdGl0dXRlIG9mIHNjaWVuY2UgYW5kIHRlY2hub2xvZ3kgbWlzdCBpbmRvcmUgbWFkaHlhIHByYWRlc2hiCQlIFIV2KazjQ5IBCnVuaXZlcnNpdHmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTm5NRFpNVDNCblJSQUI" target="_blank" rel="noopener noreferrer">
+                        <div className={classes.contact_links}>
+                            <img src="/social/map.png" alt="Google Map" />
+                            <p>Medi-Caps University Indore</p>
+                        </div>
+                    </a>
+                    <a href="mailto:mugdsc@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <div className={classes.contact_links}>
+                            <img src="/social/mail.png" alt="mail" />
+                            <p>mugdsc@gmail.com</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
