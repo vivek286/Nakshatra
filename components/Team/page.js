@@ -12,8 +12,8 @@ export default function page() {
       <div>
         <div className={classes.heading}>Meet The Team</div>
         <div style={{ ...style, marginTop: '10rem' }} className={classes.container}>
-          <Info name="Kishan Sir" image="Kishan" designation="Faculty Advisor" />
-          <Info name="Nitika Ma'am" image="Nitika" designation="Lead" />
+          <Info name="Prof. Kishan Kumar Singh" image="Kishan" designation="Faculty Advisor" />
+          <Info name="Dr. Nikita Doohan" image="Nitika" designation="Faculty Co-ordinator" />
         </div>
         <div style={{ ...style, marginTop: '-5rem' }} className={classes.container}>
           <Info name="Tanishqa Porwal" image="tanishqa" designation="Lead" />
