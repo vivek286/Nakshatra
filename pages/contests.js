@@ -26,7 +26,8 @@ export default function Contests() {
                         guidelines={["Coming Soon", "Coming Soon", "COming Soon"]}
                         image="writing.png"
                         prize1="book1.png"
-                        prize2="book2.png" />
+                        prize2="book2.png"
+                    />
 
                     <ContestItem title="Poster Making"
                         description="To give the series of competitions an aesthetic touch there will be a poster/digital art competition. Exhibit your creativity through it!!"
