@@ -29,18 +29,26 @@ export default function Home() {
         <Executive />
       </main>
       <div className={classes.credits}>
-        <div className={classes.design}>
-          <p>
-            Designed by <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Tanishqa</a>
-          </p>
-        </div>
         <div className={classes.developed}>
           <p>
-            Developed By <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Bilal, </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Vivek &amp;, </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className={classes.link}>Yash</a>
+            <span>
+              Developed By
+            </span>
+            <a href="https://www.bilalmansuri.tech/" target="_blank" rel="noopener noreferrer" className={classes.link}> Bilal</a><span> &amp; </span>
+            <a href="https://vivek286.github.io/portfolio/final%20portfolio/index.html" target="_blank" rel="noopener noreferrer" className={classes.link}>Vivek </a>
           </p>
         </div>
+        <div className={classes.design}>
+          <p>
+            <span>
+              Designed by
+            </span>
+            <a href="https://www.linkedin.com/in/tanishqa-porwal-666b81194/" target="_blank" rel="noopener noreferrer" className={classes.link}> Tanishqa</a>
+            <span> &amp; </span>
+            <a href="https://instagram.com/noodledoodle.x?utm_medium=copy_link" target="_blank" rel="noopener noreferrer" className={classes.link}> Nandini</a>
+          </p>
+        </div>
+
 
       </div>
       <Footer />

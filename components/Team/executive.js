@@ -4,79 +4,79 @@ import Info from "./info"
 let mentors = [
 
     {
-        image: "",
+        image: "AnshulSoni",
         name: "Anshul Soni",
         designation: "Operations Team"
     }
     ,
     {
-        image: "",
+        image: "PurviMishra_",
         name: "Purvi Mishra",
         designation: "Operations Team"
     }
     ,
     {
-        image: "",
+        image: "AditiMandlik",
         name: "Aditi Mandlik",
         designation: "Operations Team"
     }
     ,
     {
-        image: "",
+        image: "AtharvVani",
         name: "Atharv Vani",
         designation: "Corporate & PR Team"
     }
     ,
     {
-        image: "",
+        image: "AditiModi",
         name: "Aditi Modi",
         designation: "Corporate & PR Team"
     }
     ,
     {
-        image: "",
+        image: "ShivendraPratapSinghPatel",
         name: "Shivendra Pratap Patel",
         designation: "Corporate & PR Team"
     }
     ,
     {
-        image: "",
+        image: "VanshitaMathur",
         name: "Vanshita Mathur",
         designation: "Corporate & PR Team"
     }
     ,
     {
-        image: "",
+        image: "SandaliMaheshwari",
         name: "Sandali Maheshwari",
         designation: "Content Team"
     }
     ,
     {
-        image: "",
+        image: "VedikaHirpathak",
         name: "Vedika Hirpathak",
         designation: "Content Team"
     }
     ,
     {
-        image: "",
+        image: "MuskanSogani",
         name: "Muskan Sogani",
         designation: "Content Team"
     }
     ,
     {
-        image: "",
+        image: "TanyaSingh",
         name: "Tanya Singh",
         designation: "Design Team"
     }
     ,
     {
-        image: "",
+        image: "PriyanshiAgrawal",
         name: "Priyanshi Agrawal",
         designation: "Design Team"
     }
     ,
     {
-        image: "",
+        image: "MoneshGoyal_",
         name: "Monesh Goyal",
         designation: "Technical Team"
     }

@@ -6,7 +6,6 @@
    font-size: xxx-large;
    margin-top: 6rem;
    margin-bottom: 4rem;
-
 }
 .grid_container1{
     display: grid;
@@ -57,6 +56,12 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 600px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media screen and (max-width: 450px) {
     .heading{
         font-size: x-large;

@@ -5,6 +5,13 @@
     align-items: center;
     flex-direction: column;
 }
-.credits  p{ 
+.credits  span{ 
     opacity: 0.3;
+}
+.credits a{
+    opacity: 0.3;
+}
+.credits a:hover{
+    opacity: 0.9;
+    text-shadow: none;
 }

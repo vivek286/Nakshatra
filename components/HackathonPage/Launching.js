@@ -54,12 +54,9 @@ const Launching = () => {
                 <div
                     className="apply-button"
                     data-hackathon-slug="nakshatra"
-                    data-button-theme="light"
+                    data-button-theme="dark-inverted"
                     style={{ height: "44px", width: " 312px" }}
-                >Register Now</div>
-                {/* <a href="#"> <button className={classes.btn}>
-                    Register
-                </button></a> */}
+                ></div>
             </div>
         </section>
     )

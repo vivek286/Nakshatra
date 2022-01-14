@@ -3,71 +3,71 @@ import classes from "./mentor.module.css"
 import Info from "./info"
 let mentors = [
     {
-        image: "",
+        image: "BilalMansuri",
         name: "Md Bilal Mansuri",
         designation: "Web Dev Mentor"
     },
     {
-        image: "",
+        image: "HarshitJain",
         name: "Harshit Jain",
         designation: "AI ML Mentor"
     }
     ,
     {
-        image: "",
+        image: "PrafullaParsai",
         name: "Prafulla parsai",
         designation: "Cloud Mentor"
     }
     ,
     {
-        image: "",
+        image: "KushagraRathore",
         name: "Kushagra Rathore",
         designation: "CP Mentor"
     }
     ,
     {
-        image: "",
+        image: "PrachiPathak",
         name: "Prachi Pathak ",
         designation: "CP Mentor"
     }
     ,
     {
-        image: "",
+        image: "HrithikNigam",
         name: "Hrithik Nigam",
         designation: "AI ML Mentor"
     }
     ,
     {
-        image: "",
+        image: "ShashwatMohite",
         name: "Shashwat Mohite",
         designation: "AI ML Mentor"
     }
     ,
     {
-        image: "",
+        image: "YashSehgal",
         name: "Yash Sehgal",
         designation: "Open Source Mentor"
     }
     ,
     {
-        image: "",
+        image: "MustafaDhar",
         name: "Mustafa Dhar",
         designation: "Open Source Mentor"
     }
     ,
     {
-        image: "",
+        image: "MohakJain",
         name: "Mohak Jain",
         designation: "Cloud Mentor"
     }
     ,
     {
-        image: "",
+        image: "MohammadAnasKhan",
         name: "Mohammad Anas Khan ",
         designation: "Android Mentor"
     },
     {
-        image: "",
+        image: "AyushSoni",
         name: "Ayush Soni ",
         designation: "Web Dev Mentor"
     }
