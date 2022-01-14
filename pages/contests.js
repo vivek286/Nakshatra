@@ -1,4 +1,5 @@
-import Callisto from "../components/ContestsPage/Callisto"
+
+import ContestItem from "../components/ContestsPage/ContestItem"
 import Hero from "../components/ContestsPage/Hero"
 import Level from "../components/ContestsPage/Level"
 import Rules from "../components/ContestsPage/Rules"
@@ -9,8 +10,8 @@ import StarsBackground from "../components/UI/Stars"
 export default function Contests() {
     return (
         <>
+            <StarsBackground />
             <div style={{ background: "linear-gradient(180deg, rgba(255, 128, 0, 0.84) 0%, #FF8000 0.01%, rgba(254, 1, 153, 0.33) 100%)" }}>
-                <StarsBackground />
                 <Navbar />
                 <main style={{ position: 'relative', zIndex: 2 }}>
                     <Hero />
@@ -18,7 +19,22 @@ export default function Contests() {
                     <Level title="Beginner Level" date="2 Feb" time="5:00" duration="1 hour" />
                     <Level title="Intermediate Level" date="2 Feb" time="5:00" duration="1 hour" />
                     <Level title="Expert Level" date="2 Feb" time="5:00" duration="1 hour" />
-                    <Callisto />
+
+                    <ContestItem title="CallistO"
+                        description="Writing up the technical content is the perfect combination in the field of study, and is a fabulous way of sharing the accumulated knowledge by giving it a theoretical perspective with an interesting touch.  (concluding line missing)"
+                        topics={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        guidelines={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        image="writing.png"
+                        prize1="Book1.png"
+                        prize2="Book2.png" />
+
+                    <ContestItem title="Poster Making"
+                        description="To give the series of competitions an aesthetic touch there will be a poster/digital art competition. Exhibit your creativity through it!!"
+                        topics={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        guidelines={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        image="poster.png"
+                        prize1="poster1.png"
+                        prize2="poster2.png" />
                 </main>
                 <Footer />
             </div>
