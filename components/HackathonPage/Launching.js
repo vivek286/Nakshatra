@@ -1,8 +1,5 @@
 import classes from './Launching.module.css';
-import countItDown from 'count-it-down'
-import { useEffect } from 'react';
 
-const hackhatonDate = new Date("January 10, 2022 00:00:00");
 
 const Launching = () => {
 
@@ -50,8 +47,9 @@ const Launching = () => {
                     Hackosphere
                 </h1>
                 <p>
-                    Sandali write some innovative types here, of two lines,
-                    innovatiion, real problems blah blah
+                    Showcase your extraordinary problem solving skills
+                    Fill up your prodigious mind with ingenious ideas
+                    Hack up your sphere of innovation
                 </p>
                 <div
                     className="apply-button"

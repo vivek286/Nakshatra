@@ -1,0 +1,79 @@
+.hero{
+    padding-top: 12rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    gap: 5rem;
+    min-height: 100vh;
+}
+.hero h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+.hero p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    max-width: 60rem;
+    text-align: center;
+}
+.area51{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.container p{
+    max-width: 60%;
+    font-weight: 500;
+    text-align: left;
+}
+.ufo_img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    right: 0;
+    top: -20rem;
+}
+.ufo_img img{
+    width: 43rem;
+}
+.rules{
+    padding: 0 5rem;
+}
+.rules ul li img{
+    width: 2rem;
+}
+@media screen and (max-width:900px) {
+    .container p{
+        max-width: 70%;
+        font-weight: 500;
+    }  
+}
+@media screen and (max-width:600px) {
+    .hero{
+        padding-top: 15rem;
+    }
+    .container p{
+        max-width: 100%;
+        font-weight: 500;
+    }.container{
+        display: flex;
+        flex-direction: column;
+    }.ufo_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:static;
+        top: 0rem;
+    }
+    .ufo_img img{
+        width: 30rem;
+    }
+}
