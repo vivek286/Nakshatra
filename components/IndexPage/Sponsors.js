@@ -13,8 +13,8 @@ const Sponsors = () => {
                             <img src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <p>Coming Soon...</p>
-                            {/* <div className={classes.sponsor_images_container}>
+                            {/* <p>Coming Soon...</p> */}
+                            <div className={classes.sponsor_images_container}>
                                 <img src="/sponsors/devfolio.svg" alt="Google" />
                             </div>
                             <div className={classes.sponsor_images_container}>
@@ -22,7 +22,7 @@ const Sponsors = () => {
                             </div>
                             <div className={classes.sponsor_images_container}>
                                 <img src="/sponsors/tezos.svg" alt="Google" />
-                            </div> */}
+                            </div>
 
                         </div>
                     </div>
@@ -33,13 +33,13 @@ const Sponsors = () => {
                             <img src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <p>Coming Soon...</p>
-                            {/* <div className={classes.sponsor_images_container}>
+                            {/* <p>Coming Soon...</p> */}
+                            <div className={classes.sponsor_images_container}>
                                 <img src="/sponsors/celo.svg" alt="Google" />
                             </div>
                             <div className={classes.sponsor_images_container}>
                                 <img src="/sponsors/filecoin.svg" alt="Google" />
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>
