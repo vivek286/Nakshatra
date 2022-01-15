@@ -4,10 +4,10 @@ import classes from './Launching.module.css';
 
 
 const Launching = () => {
-    const [day, setDay] = useState();
-    const [hour, setHour] = useState();
-    const [minute, setMinute] = useState();
-    const [second, setSecond] = useState();
+    const [day, setDay] = useState("00");
+    const [hour, setHour] = useState("00");
+    const [minute, setMinute] = useState("00");
+    const [second, setSecond] = useState("00");
 
 
     useEffect(() => {
@@ -26,10 +26,26 @@ const Launching = () => {
             const textMinute = Math.floor((gap % hour) / minute);
             const textSecond = Math.floor((gap % minute) / second);
 
-            setDay(textDay);
-            setHour(textHour);
-            setMinute(textMinute);
-            setSecond(textSecond);
+            if (textDay < 10) {
+                setDay("0" + textDay);
+            } else {
+                setDay(textDay);
+            }
+            if (textHour < 10) {
+                setHour("0" + textHour);
+            } else {
+                setHour(textHour);
+            }
+            if (textMinute < 10) {
+                setMinute("0" + textMinute);
+            } else {
+                setMinute(textMinute);
+            }
+            if (textSecond < 10) {
+                setSecond("0" + textSecond);
+            } else {
+                setSecond(textSecond);
+            }
         }
         const countDownTimer = setInterval(() => {
             countDown();
