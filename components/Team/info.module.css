@@ -46,6 +46,7 @@ transform: scale(1.01) translateY(-2px);
     object-fit: cover;
     cursor: pointer;
 }
+
 .links{
     width: 100%;
 }

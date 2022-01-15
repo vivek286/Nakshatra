@@ -11,7 +11,6 @@ const Navbar = ({ setPageTitle }) => {
         if (window) {
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 300) {
-                    console.log(window.scrollY)
                     setSolidBackground(true);
                 } else {
                     setSolidBackground(false);

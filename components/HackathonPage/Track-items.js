@@ -1,7 +1,6 @@
 import classes from './Track-items-card.module.css';
 
 const TrackItemsCard = (props) => {
-    console.log(props.points)
     return (
         <>
             <div className={classes.card}>

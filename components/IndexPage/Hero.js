@@ -1,6 +1,5 @@
 import classes from './Hero.module.css';
-import Button from './Button';
-import Link from 'next/link';
+import DevFolioBtn from '../UI/DevfolioButton';
 
 const Hero = () => {
     return (
@@ -14,11 +13,12 @@ const Hero = () => {
             <div className={classes.hero_logo}>
                 <img src="./nakshatra.png" alt="Nakshatra Logo" />
             </div>
-            <Link href="/home">
+            {/* <Link href="/home">
                 <a>
                     <Button>Register!</Button>
                 </a>
-            </Link>
+            </Link> */}
+            <DevFolioBtn />
             <div className={classes.hero_year}>
                 <img src="/2022.png" alt="2022 Neon Text" />
             </div>

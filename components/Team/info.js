@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import classes from "./info.module.css"
 function Info(props) {
   return (

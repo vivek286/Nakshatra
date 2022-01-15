@@ -1,9 +1,45 @@
+import { useEffect, useState } from 'react';
+import DevFolioBtn from '../UI/DevfolioButton';
 import classes from './Launching.module.css';
 
 
 const Launching = () => {
+    const [day, setDay] = useState();
+    const [hour, setHour] = useState();
+    const [minute, setMinute] = useState();
+    const [second, setSecond] = useState();
 
 
+    useEffect(() => {
+        function countDown() {
+            const countDate = new Date("February 11, 2022 16:30:00").getTime();
+            const now = new Date().getTime();
+            const gap = countDate - now;
+
+            const second = 1000;
+            const minute = 1000 * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+
+            const textDay = Math.floor(gap / day);
+            const textHour = Math.floor((gap % day) / hour);
+            const textMinute = Math.floor((gap % hour) / minute);
+            const textSecond = Math.floor((gap % minute) / second);
+
+            setDay(textDay);
+            setHour(textHour);
+            setMinute(textMinute);
+            setSecond(textSecond);
+        }
+        const countDownTimer = setInterval(() => {
+            countDown();
+        }, 1000);
+
+
+        return (() => {
+            clearInterval(countDownTimer);
+        })
+    }, [])
 
     return (
         <section className={classes.hackathon}>
@@ -11,7 +47,7 @@ const Launching = () => {
             <div className={classes.countdown}>
                 <div className={`${classes.countdown_timer} ${classes.countdown_days}`}>
                     <div className={classes.countdown_value}>
-                        <p>24</p>
+                        <p>{day}</p>
                     </div>
                     <div className={classes.countdown_unit}>
                         <p>Days</p>
@@ -19,7 +55,7 @@ const Launching = () => {
                 </div>
                 <div className={`${classes.countdown_timer} ${classes.countdown_hour}`}>
                     <div className={classes.countdown_value}>
-                        <p>24</p>
+                        <p>{hour}</p>
                     </div>
                     <div className={classes.countdown_unit}>
                         <p>Hours</p>
@@ -27,7 +63,7 @@ const Launching = () => {
                 </div>
                 <div className={`${classes.countdown_timer} ${classes.countdown_min}`}>
                     <div className={classes.countdown_value}>
-                        <p>24</p>
+                        <p>{minute}</p>
                     </div>
                     <div className={classes.countdown_unit}>
                         <p>Min</p>
@@ -35,7 +71,7 @@ const Launching = () => {
                 </div>
                 <div className={`${classes.countdown_timer} ${classes.countdown_sec}`}>
                     <div className={classes.countdown_value}>
-                        <p>24</p>
+                        <p>{second}</p>
                     </div>
                     <div className={classes.countdown_unit}>
                         <p>Sec</p>
@@ -51,12 +87,7 @@ const Launching = () => {
                     Fill up your prodigious mind with ingenious ideas
                     Hack up your sphere of innovation
                 </p>
-                <div
-                    className="apply-button"
-                    data-hackathon-slug="nakshatra"
-                    data-button-theme="dark-inverted"
-                    style={{ height: "44px", width: " 312px" }}
-                ></div>
+                <DevFolioBtn />
             </div>
         </section>
     )
