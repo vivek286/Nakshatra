@@ -3,26 +3,29 @@ import TimelineItem from './Timeline-item';
 import classes from './Timeline.module.css';
 
 
-const day1 = [{ time: '4:30', speaker: 'Coming Soon...', title: 'Opening Session', active: true },
-{ time: '5:00', speaker: 'Coming Soon...', title: 'Hackathon Announcement' },
-{ time: '5:30', speaker: 'Coming Soon...', title: 'DevOps' },
-{ time: '7:30', speaker: 'Coming Soon...', title: 'Blog Writing Announcement' },
-{ time: '7:30', speaker: 'Coming Soon...', title: 'Networking' },
-{ time: '8:30', speaker: 'Coming Soon...', title: 'End Of Day 1' },
-{ time: '10:00', speaker: 'Coming Soon...', title: 'Gaming Night' },];
+const day1 = [
+    { time: '4:30', speaker: 'Coming Soon...', title: 'Opening Session', },
+    { time: '5:00', speaker: 'Coming Soon...', title: 'Hackathon Announcement' },
+    { time: '5:30', speaker: 'Coming Soon...', title: 'DevOps' },
+    { time: '7:30', speaker: 'Coming Soon...', title: 'Blog Writing Announcement' },
+    { time: '7:30', speaker: 'Coming Soon...', title: 'Networking' },
+    { time: '8:30', speaker: 'Coming Soon...', title: 'End Of Day 1' },
+    { time: '10:00', speaker: 'Coming Soon...', title: 'Gaming Night' },];
 
-const day2 = [{ time: '10:30', speaker: 'Coming Soon', title: 'UX-UI', active: true },
-{ time: '12:30', speaker: 'Coming Soon', title: 'Poster/Digital Art Announcement' },
-{ time: '12:45', speaker: 'Coming Soon', title: 'Break' },
-{ time: '1:30', speaker: 'Coming Soon', title: 'Networking' },
-{ time: '3:30', speaker: 'Coming Soon', title: 'Women’s Opportunities' },
-{ time: '6:00', speaker: 'Coming Soon', title: 'Coding Competition' },];
+const day2 = [
+    { time: '10:30', speaker: 'Coming Soon', title: 'UX-UI', active: true },
+    { time: '12:30', speaker: 'Coming Soon', title: 'Poster/Digital Art Announcement' },
+    { time: '12:45', speaker: 'Coming Soon', title: 'Break' },
+    { time: '1:30', speaker: 'Coming Soon', title: 'Networking' },
+    { time: '3:30', speaker: 'Coming Soon', title: 'Women’s Opportunities' },
+    { time: '6:00', speaker: 'Coming Soon', title: 'Coding Competition' },];
 
-const day3 = [{ time: '10:30', speaker: 'Coming Soon', title: 'AI/ML Session With Brainstorming', active: true },
-{ time: '12:30', speaker: 'Coming Soon', title: 'Break' },
-{ time: '1:30', speaker: 'Coming Soon', title: 'Crypto/Blockchain' },
-{ time: '4:00', speaker: 'Coming Soon', title: 'Internship / Remote Job Session' },
-{ time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony With Winners Announcement ' },];
+const day3 = [
+    { time: '10:30', speaker: 'Coming Soon', title: 'AI/ML Session With Brainstorming', active: true },
+    { time: '12:30', speaker: 'Coming Soon', title: 'Break' },
+    { time: '1:30', speaker: 'Coming Soon', title: 'Crypto/Blockchain' },
+    { time: '4:00', speaker: 'Coming Soon', title: 'Internship / Remote Job Session' },
+    { time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony With Winners Announcement ' },];
 
 
 const Timeline = () => {

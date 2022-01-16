@@ -41,7 +41,7 @@ const Tracks = () => {
             <h2>Tracks</h2>
             <div className={classes.tracks_text}>
                 <p>
-                    Coming Soon....
+
                 </p>
             </div>
             <div className={classes.tracks_grid}>

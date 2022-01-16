@@ -14,7 +14,6 @@ import Contact from "../components/IndexPage/Contact"
 import Footer from "../components/IndexPage/Footer"
 import StarsBackground from "../components/UI/Stars"
 
-
 export default function Home() {
   const [pageTitle, setPageTitle] = useState('Nakshatra');
 
