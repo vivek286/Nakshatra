@@ -1,4 +1,3 @@
-// import makeUrl, { TCalendarEvent } from 'add-event-to-calendar';
 import classes from './Add_to_cal.module.css';
 import Head from 'next/head';
 
@@ -10,26 +9,22 @@ function calend(props){
                  <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script></Head>
            
             <div className={classes.dropdown}>
-            <a target="_blank" href={`https://calendar.google.com/calendar/u/0/r/eventedit?text=${props.title}&dates=20220117T090000/20220117T100000&ctz=Asia/Kolkata&details=${props.descrip}` }>
-            <button className={classes.dropbtn}>
+           
   
-      Add to calender</button>
-                </a>    
   
-  {/* 
         <button className={classes.dropbtn}>
-            
-      Add to calender</button>
+        <img src='calender.jpeg' className={classes.image}></img>
+      </button>
   
   <div className={classes.dropdown_content}>
-            <a href={`https://www.addevent.com/event/${(props.id)}+apple`} title="Apple" target="_blank" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-apple-t1.png" alt="Apple" width="45" border="0"  />Apple</a>
-            <a href={`https://www.addevent.com/event/${(props.id)}+google`} title="Google" target="_blank" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-google-t1.png" alt="Google" width="45" border="0"  />Google</a>
-            <a href={`https://www.addevent.com/event/${(props.id)}+office365`} title="Office 365" target="_blank" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-office365-t1.png" alt="Office 365" width="45" border="0"   />Office</a>
-            <a href={`https://www.addevent.com/event/${(props.id)}+outlook`} title="Outlook" target="_blank" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-outlook-t1.png" alt="Outlook" width="45" border="0"  /> Outlook </a>
-            <a href={`https://www.addevent.com/event/${(props.id)}+outlookcom`} title="Outlook.com" target="_blank" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-outlookcom-t1.png" alt="Outlook.com" width="45" border="0"  />Outlook</a>
-            <a href={`https://www.addevent.com/event/${(props.id)}+yahoo`} title="Yahoo" target="_blank"><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-yahoo-t1.png" alt="Yahoo" width="45" border="0"  />Yahoo</a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+apple`} target={"_blank"} rel="noreferrer" title="Apple" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-apple-t1.png" alt="Apple" width="35" border="0"  /><div >Apple</div></a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+google`} target={"_blank"} rel="noreferrer" title="Google" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-google-t1.png" alt="Google" width="35" border="0"  /><div>Google</div></a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+office365`} target={"_blank"} rel="noreferrer" title="Office 365" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-office365-t1.png" alt="Office 365" width="35" border="0"   /><div>Office</div></a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+outlook`} target={"_blank"} rel="noreferrer" title="Outlook" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-outlook-t1.png" alt="Outlook" width="35" border="0"  /><div> Outlook </div></a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+outlookcom`} target={"_blank"} rel="noreferrer" title="Outlook.com" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-outlookcom-t1.png" alt="Outlook.com" width="35" border="0"  /><div>Outlook</div></a>
+            <a href={`https://www.addevent.com/event/${(props.id)}+yahoo`} target={"_blank"} rel="noreferrer" title="Yahoo"><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-yahoo-t1.png" alt="Yahoo" width="35" border="0"  /><div>Yahoo</div></a>
             
-  </div> */}
+  </div>
 </div>
        </div>
     )

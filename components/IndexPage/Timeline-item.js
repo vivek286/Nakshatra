@@ -17,7 +17,7 @@ const TimelineItem = ({ time, title, speaker, description }) => {
                     </div>
                     {/* <img src="/add-event.png" alt="Add to calendar" className={classes.add} /> */}
                 </div>
-                <ADD_to_cal title={title.split(" ").join("+")} id={"UI11394481"} descrip={speaker.split(" ").join("+") } />
+                <ADD_to_cal  id={"UI11394481"} descrip={speaker.split(" ").join("+") } />
             </div>
 
         </Fade>
