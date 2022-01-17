@@ -33,6 +33,7 @@ const Timeline = () => {
 
     const changeDateHandler = (date) => {
         setActiveDate(date)
+        window.navigator.vibrate(30);
     }
 
     return (

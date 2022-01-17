@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import classes from './Sponsors.module.css';
 
 const Sponsors = () => {
@@ -15,14 +16,12 @@ const Sponsors = () => {
                         <div className={classes.sponsor_images}>
                             {/* <p>Coming Soon...</p> */}
                             <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/devfolio.svg" alt="Google" />
+                                <img src="/sponsors/gold/devfolio.svg" alt="Devfolio Logo" loading='lazy' />
                             </div>
                             <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/polygon.svg" alt="Google" />
+                                <img src="/sponsors/gold/polygon.svg" alt="Polygon Logo" loading='lazy' />
                             </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/tezos.svg" alt="Google" />
-                            </div>
+
 
                         </div>
                     </div>
@@ -35,10 +34,21 @@ const Sponsors = () => {
                         <div className={classes.sponsor_images}>
                             {/* <p>Coming Soon...</p> */}
                             <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/celo.svg" alt="Google" />
+
+                                <img src="/sponsors/silver/celo.svg" alt="Celo Logo" loading='lazy' />
+
                             </div>
                             <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/filecoin.svg" alt="Google" />
+                                <img src="/sponsors/silver/filecoin.svg" alt="Filecoin Logo" loading='lazy' />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/silver/tezos.svg" alt="Tezos Logo" loading='lazy' />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/silver/gmc.png" alt="GMC Logo" loading='lazy' />
+                            </div>
+                            <div className={classes.sponsor_images_container}>
+                                <img src="/sponsors/silver/wolfram.png" alt="GMC Logo" loading='lazy' />
                             </div>
                         </div>
                     </div>

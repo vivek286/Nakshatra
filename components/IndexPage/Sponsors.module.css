@@ -2,6 +2,11 @@
 .sponsors_conatiner{
     margin-left: 1.5rem;
 }
+.sponsor_images_container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sponsors_subheading >p {
     font-weight:600;
     text-align: center;
@@ -74,7 +79,6 @@
     }
     .sponsor_images  img{
         height:5rem;
-        /* background-color: #fff; */
         border-radius: 10px;
     }
 }

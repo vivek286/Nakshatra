@@ -1,9 +1,9 @@
-
-import Image from "next/image";
 import classes from "./info.module.css"
+import { Fade } from "react-reveal";
+
 function Info(props) {
   return (
-    <div>
+    <Fade bottom distance="10px" duration={500}>
       <div className={classes.member}>
         <div className={classes.card_img}>
           <img src={`/team/${props.image}.jpg`} alt={props.name} loading="lazy" />
@@ -19,7 +19,7 @@ function Info(props) {
           </a>
         </div> */}
       </div>
-    </div >
+    </Fade >
 
   )
 }
