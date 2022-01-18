@@ -38,7 +38,12 @@ const silverSponsors = [
     {
         image: "GMC.png",
         alt: "GMC",
-        link: ""
+        link: "https://givemycertificate.com/"
+    },
+    {
+        image: "wolfram.png",
+        alt: "Wolfram",
+        link: "https://www.wolfram.com/language/"
     }
 ]
 
@@ -59,7 +64,7 @@ const Sponsors = () => {
                         <div className={classes.sponsor_images}>
                             {goldSponsors.map((item, index) => {
                                 return (
-                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
                                         <div className={classes.sponsor_images_container}>
                                             <img src={`/sponsors/gold/${item.image}`} alt={item.alt} loading='lazy' />
                                         </div>
@@ -77,36 +82,18 @@ const Sponsors = () => {
                             <Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/silver/celo.svg" alt="Celo Logo" loading='lazy' />
-                                </div>
-                            </a>
-
-                            <a href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/silver/filecoin.svg" alt="Filecoin Logo" loading='lazy' />
-                                </div>
-                            </a>
-                            <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/silver/tezos.svg" alt="Tezos Logo" loading='lazy' />
-                                </div>
-                            </a>
-
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/silver/gmc.png" alt="GMC Logo" loading='lazy' />
-                                </div>
-                            </a>
-
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/silver/wolfram.png" alt="GMC Logo" loading='lazy' />
-                                </div>
-                            </a>
+                            {silverSponsors.map((item, index) => {
+                                return (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
+                                        <div className={classes.sponsor_images_container}>
+                                            <img src={`/sponsors/silver/${item.image}`} alt={item.alt} loading='lazy' />
+                                        </div>
+                                    </a>
+                                )
+                            })}
                         </div>
                     </div>
+
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
                             <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
