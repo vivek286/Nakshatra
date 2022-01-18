@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import MobileNav from './MobileNav';
 import classes from './Navbar.module.css';
+import throttle from '../../helpers/throttle';
 
 const Navbar = ({ setPageTitle }) => {
     const [solidBackground, setSolidBackground] = useState(false);
@@ -10,13 +11,14 @@ const Navbar = ({ setPageTitle }) => {
 
     useEffect(() => {
         if (window) {
-            window.addEventListener('scroll', () => {
+            window.addEventListener('scroll', throttle(function () {
+                console.log("sss");
                 if (window.scrollY > 300) {
                     setSolidBackground(true);
                 } else {
                     setSolidBackground(false);
                 }
-            })
+            }, 300));
         }
 
         return (() => {
