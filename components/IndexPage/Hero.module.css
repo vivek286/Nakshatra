@@ -1,7 +1,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('../../public/banner-c.png');
+    background-image: url('../../public/banner-c.webp');
     background-position-x:center;
     background-position-y:center;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ width: 100%;
 @media only screen and (max-width: 600px) {
     .hero{
         height: 100vh;
-        background-image: url('../../public/mob-banner.png');
+        background-image: url('../../public/mob-banner.webp');
     }
 .hero_logo{
     width: 30rem;

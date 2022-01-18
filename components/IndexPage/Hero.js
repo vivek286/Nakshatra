@@ -12,7 +12,7 @@ const Hero = () => {
             </h1>
 
             <div className={classes.hero_logo}>
-                <Image width={500} height={300} layout="responsive" src="/nakshatra.png" alt="Nakshatra Logo" />
+                <Image width={500} height={300} layout="responsive" src="/nakshatra.webp" alt="Nakshatra Logo" />
             </div>
             <DevFolioBtn />
             <div className={classes.hero_year}>
