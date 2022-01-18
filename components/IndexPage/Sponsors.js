@@ -14,16 +14,26 @@ const Sponsors = () => {
                             <img src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            {/* <p>Coming Soon...</p> */}
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/gold/devfolio.svg" alt="Devfolio Logo" loading='lazy' />
-                            </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/gold/polygon.svg" alt="Polygon Logo" loading='lazy' />
-                            </div>
 
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/gold/devfolio.svg" alt="Devfolio Logo" loading='lazy' />
+                                </div>
+                            </a>
 
+                            <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/gold/polygon.svg" alt="Polygon Logo" loading='lazy' />
+                                </div>
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer" >
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/gold/gfg.png" alt="GFG Logo" loading='lazy' />
+                                </div>
+                            </a>
                         </div>
+
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
@@ -32,24 +42,34 @@ const Sponsors = () => {
                             <img src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            {/* <p>Coming Soon...</p> */}
-                            <div className={classes.sponsor_images_container}>
+                            <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/silver/celo.svg" alt="Celo Logo" loading='lazy' />
+                                </div>
+                            </a>
 
-                                <img src="/sponsors/silver/celo.svg" alt="Celo Logo" loading='lazy' />
+                            <a href="https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/silver/filecoin.svg" alt="Filecoin Logo" loading='lazy' />
+                                </div>
+                            </a>
+                            <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/silver/tezos.svg" alt="Tezos Logo" loading='lazy' />
+                                </div>
+                            </a>
 
-                            </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/silver/filecoin.svg" alt="Filecoin Logo" loading='lazy' />
-                            </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/silver/tezos.svg" alt="Tezos Logo" loading='lazy' />
-                            </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/silver/gmc.png" alt="GMC Logo" loading='lazy' />
-                            </div>
-                            <div className={classes.sponsor_images_container}>
-                                <img src="/sponsors/silver/wolfram.png" alt="GMC Logo" loading='lazy' />
-                            </div>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/silver/gmc.png" alt="GMC Logo" loading='lazy' />
+                                </div>
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/silver/wolfram.png" alt="GMC Logo" loading='lazy' />
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div className={classes.sponsor_div}>
@@ -60,9 +80,7 @@ const Sponsors = () => {
                         </div>
                         <div className={classes.sponsor_images}>
                             <p>Coming Soon...</p>
-                            {/* <img src="/sponsors/google.svg" alt="Google" />
-                            <img src="/sponsors/amazon.svg" alt="Google" />
-                            <img src="/sponsors/tesla.svg" alt="Google" /> */}
+
                         </div>
                     </div>
                 </div>

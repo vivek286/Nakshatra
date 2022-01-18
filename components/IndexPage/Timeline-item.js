@@ -5,7 +5,7 @@ import ADD_to_cal from './Add_to_cal'
 const TimelineItem = ({ time, title, speaker, description }) => {
 
     return (
-        <Fade top cascade duration={500} >
+        <Fade top cascade duration={500} distance="50px" >
             <div className={classes.timeline_item}>
                 <div className={classes.time} >
                     <p>{time} pm</p>
@@ -17,7 +17,7 @@ const TimelineItem = ({ time, title, speaker, description }) => {
                     </div>
                     {/* <img src="/add-event.png" alt="Add to calendar" className={classes.add} /> */}
                 </div>
-                <ADD_to_cal  id={"UI11394481"} descrip={speaker.split(" ").join("+") } />
+                {/* <ADD_to_cal id={"UI11394481"} descrip={speaker.split(" ").join("+")} /> */}
             </div>
 
         </Fade>
