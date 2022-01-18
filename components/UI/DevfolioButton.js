@@ -14,9 +14,11 @@ export default function DevFolioBtn() {
     return (
         <div
             className="apply-button"
-            data-hackathon-slug="nakshatra"
+            data-hackathon-slug="Nakshatra"
             data-button-theme="dark-inverted"
             style={{ height: "44px", width: " 312px" }}
-        ></div>
+        >
+        </div>
+
     )
 }

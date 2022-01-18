@@ -1,5 +1,4 @@
 import classes from "./info.module.css"
-import { Fade } from "react-reveal";
 
 function Info(props) {
   return (
@@ -12,14 +11,8 @@ function Info(props) {
           <p className={classes.in_text}>{props.name}</p>
           <p className={classes.in_text}>{props.designation}</p>
         </div>
-        {/* <div className={classes.links}>
-          <a href="/a">
-            <p>Connect on </p>
-            <img src="/social/linkedin.png" alt="linkedIn" />
-          </a>
-        </div> */}
       </div>
-    </ >
+    </>
 
   )
 }

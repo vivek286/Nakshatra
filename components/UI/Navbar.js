@@ -12,7 +12,6 @@ const Navbar = ({ setPageTitle }) => {
     useEffect(() => {
         if (window) {
             window.addEventListener('scroll', throttle(function () {
-                console.log("sss");
                 if (window.scrollY > 300) {
                     setSolidBackground(true);
                 } else {

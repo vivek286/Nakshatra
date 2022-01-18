@@ -1,6 +1,47 @@
 import Image from 'next/image';
 import classes from './Sponsors.module.css';
 
+const goldSponsors = [
+    {
+        image: "devfolio.svg",
+        alt: "Devfolio",
+        link: "https://devfolio.co/home/"
+    },
+    {
+        image: "polygon.svg",
+        alt: "Polygon",
+        link: "https://polygon.technology/"
+    },
+    {
+        image: "gfg.png",
+        alt: "Geeks For Geeks",
+        link: "https://www.geeksforgeeks.org/"
+    }
+]
+
+const silverSponsors = [
+    {
+        image: "celo.svg",
+        alt: "Celo",
+        link: "https://celo.org/"
+    },
+    {
+        image: "filecoin.svg",
+        alt: "Filecoin",
+        link: "https://filecoin.io/",
+    },
+    {
+        image: "tezos.svg",
+        alt: "Tezos",
+        link: "https://tezos.com/"
+    },
+    {
+        image: "GMC.png",
+        alt: "GMC",
+        link: ""
+    }
+]
+
 const Sponsors = () => {
     return (
         <section className={classes.sponsors} id="Sponsors">
@@ -8,33 +49,27 @@ const Sponsors = () => {
             <div className={classes.sponsors_conatiner}>
                 <div className={classes.sponsors_details}>
                     <div className={classes.sponsor_div}>
+
+                        {/* GOLD SPONSORS */}
                         <div className={classes.star}>
                             <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
                             <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
                             <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/gold/devfolio.svg" alt="Devfolio Logo" loading='lazy' />
-                                </div>
-                            </a>
-
-                            <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/gold/polygon.svg" alt="Polygon Logo" loading='lazy' />
-                                </div>
-                            </a>
-
-                            <a href="#" target="_blank" rel="noopener noreferrer" >
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/gold/gfg.png" alt="GFG Logo" loading='lazy' />
-                                </div>
-                            </a>
+                            {goldSponsors.map((item, index) => {
+                                return (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                        <div className={classes.sponsor_images_container}>
+                                            <img src={`/sponsors/gold/${item.image}`} alt={item.alt} loading='lazy' />
+                                        </div>
+                                    </a>
+                                )
+                            })}
                         </div>
-
                     </div>
+
+                    {/* SILVER SPONSORS */}
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
                             <Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
