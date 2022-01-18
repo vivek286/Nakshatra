@@ -37,9 +37,9 @@ const Sponsors = () => {
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
-                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
-                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
                             <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0" target="_blank" rel="noopener noreferrer">
