@@ -16,9 +16,26 @@ export default function Contests() {
                 <main style={{ position: 'relative', zIndex: 2 }}>
                     <Hero />
                     <Rules />
-                    <Level title="Beginner Level" date="2 Feb" time="5:00" duration="1 hour" />
-                    <Level title="Intermediate Level" date="2 Feb" time="5:00" duration="1 hour" />
-                    <Level title="Expert Level" date="2 Feb" time="5:00" duration="1 hour" />
+                    <Level
+                        title="Beginner Level"
+                        description="What is the best way to start your coding journey than testing up your coding skills
+                        So take a plunge and start it now!!"
+                        date="2 Feb"
+                        time="5:00"
+                        duration="1 hour" />
+                    <Level
+                        title="Intermediate Level"
+                        description="Learned enough of coding 
+                        Then show some confidence and test up your skills!"
+                        date="2 Feb"
+                        time="5:00"
+                        duration="1 hour" />
+                    <Level
+                        title="Expert Level"
+                        description="If you consider yourself a coding maestro then here's a chance to prove it !!"
+                        date="2 Feb"
+                        time="5:00"
+                        duration="1 hour" />
 
                     <ContestItem title="CallistO"
                         description="Writing up the technical content is the perfect combination in the field of study, and is a fabulous way of sharing the accumulated knowledge by giving it a theoretical perspective with an interesting touch.  (concluding line missing)"

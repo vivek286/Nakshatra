@@ -1,6 +1,6 @@
 import classes from './Levels.module.css';
 
-const Level = ({ title, date, time, duration }) => {
+const Level = ({ title, date, time, duration, description }) => {
     return (
         <section className={classes.level}>
             <div className={classes.card_container}>
@@ -30,7 +30,7 @@ const Level = ({ title, date, time, duration }) => {
             <div className={classes.level_details}>
                 <div className={classes.detail_head}>
                     <h2>{title}</h2>
-                    <p className={classes.subheading}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi autem unde tempora quidem id voluptate officiis porro ducimus deserunt?</p>
+                    <p className={classes.subheading}>{description}</p>
                 </div>
                 <div className={classes.detail_bottom}>
                     <p>{date}</p>

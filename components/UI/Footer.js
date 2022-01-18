@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -12,37 +13,37 @@ const Footer = () => {
                         <div className={classes.social_media_logos}>
                             <div>
                                 <a href="https://www.instagram.com/gdscmu/" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/instagram.png" alt="Instagram Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/instagram.png" alt="Instagram Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.linkedin.com/company/gdscmu" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/linkedin.png" alt="LinkedIn Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/linkedin.png" alt="LinkedIn Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://discord.gg/ZNeAcpv66y" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/discord.png" alt="Discord Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/discord.png" alt="Discord Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://bit.ly/TelegramMUGDSC" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/telegram.png" alt="Telegram Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/telegram.png" alt="Telegram Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://twitter.com/mugdsc" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/twitter.png" alt="Twitter Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/twitter.png" alt="Twitter Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.youtube.com/channel/UCfRlm-qlPIv7GnCCLDFGYCw?sub_confirmation=1" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/youtube.png" alt="Youtube Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/youtube.png" alt="Youtube Icon" />
                                 </a>
                             </div>
                             <div>
                                 <a href="https://bit.ly/ChapterMUGDSC" target="_blank" rel="noopener noreferrer">
-                                    <img src="/social/google.png" alt="Google Icon" />
+                                    <Image width={25} height={25} layout="fixed" src="/social/google.png" alt="Google Icon" />
                                 </a>
                             </div>
                         </div>
@@ -51,13 +52,13 @@ const Footer = () => {
                         <h2>Contact Us</h2>
                         <a href="https://www.google.com/maps/place/Medi-Caps+University/@22.6396852,75.7835985,13.3z/data=!4m9!1m2!2m1!1smedicaps+institute+of+science+and+technology+(mist)+indore+madhya+pradesh!3m5!1s0x3962f958dcb7169d:0xd877c12078e50f0f!8m2!3d22.6210224!4d75.8035907!15sCkltZWRpY2FwcyBpbnN0aXR1dGUgb2Ygc2NpZW5jZSBhbmQgdGVjaG5vbG9neSAobWlzdCkgaW5kb3JlIG1hZGh5YSBwcmFkZXNoSKXstXNaSSJHbWVkaWNhcHMgaW5zdGl0dXRlIG9mIHNjaWVuY2UgYW5kIHRlY2hub2xvZ3kgbWlzdCBpbmRvcmUgbWFkaHlhIHByYWRlc2hiCQlIFIV2KazjQ5IBCnVuaXZlcnNpdHmaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTm5NRFpNVDNCblJSQUI" target="_blank" rel="noopener noreferrer">
                             <div className={classes.contact_links}>
-                                <img src="/social/map.png" alt="Google Map" />
+                                <Image width={25} height={25} layout="fixed" src="/social/map.png" alt="Google Map" />
                                 <p>Medi-Caps University Indore</p>
                             </div>
                         </a>
                         <a href="mailto:mugdsc@gmail.com" target="_blank" rel="noopener noreferrer">
                             <div className={classes.contact_links}>
-                                <img src="/social/mail.png" alt="mail" />
+                                <Image width={25} height={25} layout="fixed" src="/social/mail.png" alt="mail" />
                                 <p>mugdsc@gmail.com</p>
                             </div>
                         </a>

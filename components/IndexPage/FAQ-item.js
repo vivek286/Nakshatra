@@ -5,7 +5,7 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import Fade from 'react-reveal/Fade';
 
 
-const FAQItem = ({ question, answer }) => {
+const FAQItem = ({ question, answer, email }) => {
     const [showAnswer, setShowAnswer] = useState(false);
 
     const showAnswerHandler = () => {
@@ -15,7 +15,7 @@ const FAQItem = ({ question, answer }) => {
         <div className={classes.faq}>
             <div onClick={showAnswerHandler} className={classes.question_container} >
                 <div className={classes.question}>
-                    <div className={classes.icons}>
+                    <div className={classes.icons} >
                         <QuestionMarkIcon />
                     </div>
                     <p>{question}</p>
@@ -26,7 +26,7 @@ const FAQItem = ({ question, answer }) => {
                 <div className={classes.icons}>
                     <img src="/tick.svg" alt="Question" />
                 </div>
-                <p>{answer}</p>
+                <p>{answer} {email && <a href="mailto:mugdsc@gmail.com" target="_blank" rel="noopener noreferrer">mugdsc@gmail.com</a>}</p>
             </div>
             </Fade>}
 

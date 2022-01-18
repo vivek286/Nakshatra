@@ -1,5 +1,6 @@
 import classes from './Hero.module.css';
 import DevFolioBtn from '../UI/DevfolioButton';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
@@ -11,16 +12,11 @@ const Hero = () => {
             </h1>
 
             <div className={classes.hero_logo}>
-                <img src="./nakshatra.png" alt="Nakshatra Logo" />
+                <Image width={500} height={300} layout="responsive" src="/nakshatra.png" alt="Nakshatra Logo" />
             </div>
-            {/* <Link href="/home">
-                <a>
-                    <Button>Register!</Button>
-                </a>
-            </Link> */}
             <DevFolioBtn />
             <div className={classes.hero_year}>
-                <img src="/2022.png" alt="2022 Neon Text" />
+                <Image width={200} height={81} layout="responsive" src="/2022.png" alt="2022 Neon Text" />
             </div>
         </section>
     )

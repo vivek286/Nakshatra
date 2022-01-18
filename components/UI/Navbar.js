@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import MobileNav from './MobileNav';
@@ -31,7 +32,7 @@ const Navbar = ({ setPageTitle }) => {
             <Link href="/">
                 <a href="">
                     <div className={classes.header_logo}>
-                        <img src="/nav_logo.png" alt="" />
+                        <Image width={350} height={85} layout="responsive" src="/nav_logo.png" alt="MU-GDSC LOGO" />
                     </div>
                 </a></Link>
             <MobileNav setPageTitle={setPageTitle} />

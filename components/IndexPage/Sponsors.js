@@ -9,9 +9,9 @@ const Sponsors = () => {
                 <div className={classes.sponsors_details}>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/gold.png" alt="Star" />
-                            <img src="/sponsors/gold.png" alt="Star" />
-                            <img src="/sponsors/gold.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/gold.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
 
@@ -37,9 +37,9 @@ const Sponsors = () => {
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/silver.png" alt="Star" />
-                            <img src="/sponsors/silver.png" alt="Star" />
-                            <img src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
+                            <Image width={50} height={50} Image width={50} height={50} src="/sponsors/silver.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
                             <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0" target="_blank" rel="noopener noreferrer">
@@ -74,12 +74,16 @@ const Sponsors = () => {
                     </div>
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
-                            <img src="/sponsors/bronze.png" alt="Star" />
-                            <img src="/sponsors/bronze.png" alt="Star" />
-                            <img src="/sponsors/bronze.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
+                            <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <p>Coming Soon...</p>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <div className={classes.sponsor_images_container}>
+                                    <img src="/sponsors/bronze/jetbrains.svg" alt="Jet Brains Logo" loading='lazy' />
+                                </div>
+                            </a>
 
                         </div>
                     </div>
